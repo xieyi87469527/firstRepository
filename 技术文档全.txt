@@ -1,0 +1,2475 @@
+	192.168.18.39
+255.255.255.0
+192.168.18.254
+
+202.96.104.17
+202.96.104.27
+
+最新技术：Vaadin框架   学习网址：极客学院 http://wiki.jikexueyuan.com/list/va
+打开注册表regedit   
+
+端口技术：修改tomcat server.xml <Connector connectionTimeout="20000" port="80" protocol="HTTP/1.1" redirectPort="8443"/>   port由8080改为80
+访问时不需要加10.1.23.165:8080/smartcampus 直接10.1.23.165/smartcampus 
+tomcat默认是8080端口。如百度www.baidu.com:80 等价 www.baidu.com 80可以省略   所有设置成80后不用加(端口号了，自动会加上):8080
+就是80端口不需要加:8080
+
+<Connector port="8080" protocol="HTTP/1.1"  connectionTimeout="20000" redirectPort="8443" acceptCount="500" maxThreads="400" />
+
+启动服务两种方法：
+1.dos启动：cmd - net start MySQL
+2.手动启动：cmd-services.msc-手动启动MySQL
+
+登入mysql两种方法：
+1.win+r===>cmd(dos命令窗口)==>net start MySQL(这个服务器名安装时配置的)==> mysql -hlocalhost -uroot -p(mysql -hlocalhost -uroot -proot（这个密码安装时设置的）)
+2.mysql窗口打开
+
+dos下的telnet测试连接数据库
+telnet 60.190.57.104 1521
+
+telnet 127.0.0.1 3306
+
+服务器上部署了项目，要把服务停掉，不然新部署的项目不好重命名，因为该项目还在运行
+
+netstat -ano|findstr 80       ====  netstat -ano
+
+8080是tomcat端口，3306是mysql端口，oracle 默认端口号为1521 ,localhost就是本机服务器地址，对应的ip地址就是127.0.1.1
+---------------------------------------------------------------------------------------------------
+
+wiwin+方向键
+alt键启动工具栏，可以快捷操作
+c+t  查看接口实现类 
+c+o  类结构
+c+sh+r 
+c+sh+t  
+c+e  显示下拉窗口
+Alt+Enter 显示当前选择资源
+Alt+Shift+R 重命名被选中的变量
+Alt+Shift+M 抽取方法 
+Alt+Shift+C 修改函数结构
+Alt+Shift+L 抽取本地变量
+Alt+Shift+F 把Class中的local变量变为field变量(MyEclipse中需要自定义)
+Alt+Shift+I 合并变量(可能这样说有点不妥Inline)
+Alt+Shift+V 移动方法和变量不怎么常用
+Alt+Shift+Z 重构的后悔药(Undo)    
+ctrl+l调转到某行
+
+
+Shift + Alt + A  块操作模式
+ctrl+/  注释和取消注释
+shift+ctrl+/ 块注释
+shift+ctrl+\ 反块注释
+
+ Ctrl+K      参照选中的词(Word)快速定位到下一个 
+ Ctrl+Shift+K    参照选中的词(Word)快速定位到上一个 
+
+jsp页面 alt+"/"会有代码提示
+----------------------
+echart技术：
+
+http://echarts.baidu.com/echarts2/doc/example.html    echart地图
+http://echarts.baidu.com/api.html#echarts      echart官网api(百度搜索echart官网)
+http://echarts.baidu.com/doc/example/map20.html            市级地区
+http://echarts.baidu.com/echarts2/doc/example/map11.html   echart地图代强发的
+http://echarts.baidu.com/echarts2/doc/doc.html#Series        对应的api  这个比官网api要好
+http://www.cnblogs.com/always-online/p/5175513.html        区实例代码
+http://www.eoashare.com/fuli/8.html
+-----------------------------------------------------------
+
+http://blog.mn886.net/jqGrid/                                                    jqGrif技术文档
+morris.js  是个好东西 局端用的
+http://blog.jobbole.com/49320/                                                    css定位教程    
+http://www.hcharts.cn/demo/highcharts                                             highcharts（优先用这个网址）
+http://www.highcharts.com/demo/                                                   这个highcharts用来找例子
+http://echarts.baidu.com/echarts2/doc/example.html                                echart技术不错，很多echart例子
+http://my.oschina.net/liangbo/blog/92054                                          @manytoone标签博客
+http://commons.apache.org/                                                        apache下的commons包下载地址                      
+http://pan.baidu.com/share/link?shareid=3261692244&uk=3842962278                  spring security教程
+										  分享一百多套开发视频教程的下载地址 - zhangze - 博客园
+http://blog.csdn.net/swingpyzf/article/details/8904205          		  springmvc_01实例地址        
+http://mt.sohu.com/20160325/n442095100.shtml                                      / /守望先锋配置要求
+http://ibatis.apache.org/docs/dotnet/datamapper/ch03s09.html#id386679             或者  http://ibatis.apache.org/docs/            ibatis 官方api文档
+http://uule.iteye.com/blog/1853512                                                springmvs 拦截器的使用
+https://github.com/mybatis/mybatis-3/releases                                     mybatis下载地址
+http://blog.csdn.net/techbirds_bao/article/details/9233599/                       mybatis博客文档有很多技术  (mybatis代码生成工具)
+http://blog.csdn.net/gebitan505/article/details/44455235/                         SSM微信
+http://www.cnblogs.com/chu888chu888/archive/2011/11/10/2244181.html               50个jquery技术
+http://jinnianshilongnian.iteye.com/category/305053                               某人的博客 跟我学shiro，全是shiro技术
+http://shiro.apache.org/documentation.html                                        shiro官网
+http://shiro.apache.org/static/1.2.6/apidocs/                                     shiro 在线api
+http://www.diannaowang.net/                                                       电脑网技术
+http://jingyan.baidu.com/article/bea41d439deed7b4c41be611.html                    老毛桃重装教程
+http://www.360doc.com/content/14/1208/13/16070877_431273418.shtml                 jmeter性能分析
+http://bbs.csdn.net/topics/340266090                                              tomcat崩溃
+http://blog.csdn.net/gebitan505/article/details/44455235/                         ssm环境搭建
+http://www.bootcss.com/                                                           好的网站，有最新的jquery文档
+http://tool.oschina.net/                                                          api在线工具
+http://blog.csdn.net/liujiahan629629/article/details/20737593                     博客学习网
+http://jingyan.baidu.com/article/47a29f244ab56bc01523995c.html                    struts下载网址
+http://jingyan.baidu.com/article/0f5fb099f1cc566d8334ea03.html                    omcat下载网址 （http://tomcat.apache.org/）
+
+网名：jquery插件库 注册邮箱：2293670171@qq.com  z87469527/87469527
+Highcharts中文网
+layoutit界面设计工具   登入名及密码：1054184711@qq.com/123456
+http://www.52z.com/jiaocheng/18850.html                                                         分区教程
+http://www.w3school.com.cn/tiy/t.asp?f=jseg_isNaN                                               在线js测试地址
+http://www.runoob.com/bootstrap/bootstrap-intro.html   						boottrap学习网 
+http://www.runoob.com/jquerymobile/jquerymobile-install.html   					jquery mobile学习网    jQuerymobile.com/jquerymobile官网
+http://demos.jquerymobile.com/1.4.5/icons/  							jquery demos
+http://www.cnblogs.com/lhb25/archive/2012/10/16/jquery-calendar-timepicker-plugins.html     	优秀的时间控件网址：
+http://www.lanrenmaku.com/jMobile/2014_1231_1357.html  						时间控件网址
+http://www.bj.10086.cn/service/  								手机网上营业厅
+http://m.myexception.cn/web/1682176.html 							jit实现拓扑结构
+http://tool.oschina.net/apidocs/    								在线api文档
+http://jointjs.com/       									jointjs官网
+http://www.07net01.com/zhishi/238556.html							学习网站
+http://bianrongxin.iteye.com/blog/1474676  							twaver使用手册和视频和下载地址
+http://www.jgraph.com/jgraph.html								下载网址jgraph
+http://hizzgdev.github.io/jsmind/developer.html                                                 js-mindmap 工具
+http://raphaeljs.com/                                                                           raphael.js   
+http://www.jgraph.com/mxgraph.html                     
+http://d3js.org/    http://www.ourd3js.com/                                                     D3.js 
+http://www.199it.com/archives/369382.html                                                       很多画图工具及网址
+http://struts.apache.org/                                                                       struts官网
+http://www.w3school.com.cn/jquerymobile/jquerymobile_ref_data.asp                               jquery moible 技术网址     
+http://www.17sucai.com/pins/tag/6160.html                                                       后台模板下载
+www.apache.org   										apache官网
+http://blog.csdn.net/xue_feitian/article/details/6454026    支密码：z87469527                   multiselect多选框
+---------------------------------------------------------------------------------------------------
+360浏览器连接vpn(或者用客户端连接vpn):  easy-connect
+https://202.107.209.178/
+dvt/tly1008033
+vpn的作用就是连接到内网的
+---------------------------------------------------------------------------------------------------
+公司jw测试数据库 10.1.23.166  数据库连接地址plsql界面:10.1.23.166:1521/ORCL   jw/tly1008033
+application.protperty  10.1.23.166\:1521\:ORCL JW/TLY1008033
+---------------------------------------------------------------------------------------------------
+教育统计：
+http://www.stats.edu.cn/rjgx/2013soft_z.html
+http://pan.baidu.com/s/1pJkoEWr
+svn://10.1.21.150:2401/project/教委
+服务器名称：.\SQLEXPRESS   sa/sa
+
+1.系统管理导入编码比如导入浙江省的代码
+		<property name="username" value="sa"></property>
+		<property name="password" value="sa"></property>
+
+2,导入中职和基础的数据  用通用账号登入后导入
+---------------------------------------------------------------------------------------------------
+二技单点登入：
+http://sso.nb2j.com/SSOManager/Server/PostServer.aspx?method=GetPersonnelInfo&code=YKT&&token=
+测试认证地址：http://sso.nb2j.com/UILogin.aspx?SSOLoginType=1&siteCode=YKT_local   正式YKT
+子系统地址：http://os.nb2j.com:82/RedeployCourse/RedeployCourse.asp  163/123321	
+正式地址：http://192.168.92.52/smartcampus/ssoIndex.jsp   gyykt/123456（测试），163/123321（老师账号）
+二技认证对接：gyykt/123456     admin/150745xxx
+测试地址：http://localhost:8080/SmartCampus
+http://sso.nb2j.com/SSOManager/Server/PostServer.aspx?method=GetPersonnelInfo&code=YKT&token=80A7ADE1235ABA22F6E30E8854883E70E4A4C46E3E18BFC906562069728EDBEDB502D076C0BF267B1A4E5F93220FAE9CBEA43A011DEB944A556FC53F0ED26867
+---------------------------------------------------------------------------------------------------
+http://10.24.64.146/smartcampus/homepage/index!index_qd.action
+职教数据库（包括内网和外网，内网web,外网app）10.30.46.251
+web端登入账号admin/123456
+职教内网和202.107.209.179:8080对应的数据库都是10.30.46.251  251改为了119
+//1.职教内网（web项目地址）  10.30.46.220
+
+//2.职教手机端远程地址192.168.46.101，访问地址还是http://202.107.209.179:8080/smartcampus
+ administrator/Money123!@#
+
+陆凌霄 困熟狗
+
+学生:杨龙 		http://localhost:8080/SmartCampus/mobile/student!queryDxkq.action?studentId=8A9EAE704F724519014F76D0650202FA
+班主任：陈雨亚 	  	http://localhost:8080/SmartCampus/mobile/teacher!queryDxkq.action?teacherId=8A9EAE704544682901456DC5F05004AA
+负责老师：贺小军 	http://localhost:8080/SmartCampus/mobile/teacher!queryZbdkjs.action?teacherId=8A9EAE704544682901456DC5F07C04C2
+
+//访问地址
+学生端
+内网地址：http://10.30.46.220/smartcampus/mobile/student!queryDxkq.action?studentId=8A9EAE704F724519014F76D0650202FA
+
+外网地址：http://202.107.209.179:8080/smartcampus/mobile/student!queryDxkq.action?studentId=8A9EAE704F724519014F76D0650202FA
+
+学生:杨龙                 http://202.107.209.179:8080/smartcampus/mobile/student!queryDxkq.action?studentId=8A9EAE704F724519014F76D0650202FA
+班主任：陈雨亚            http://202.107.209.179:8080/smartcampus/mobile/teacher!queryDxkq.action?teacherId=8A9EAE704544682901456DC5F05004AA
+
+老师端
+内网地址：http://10.30.46.220/smartcampus/mobile/teacher!queryDxkq.action?teacherId=8A9EAE704544682901456DC5F05004AA
+外网地址：http://202.107.209.179:8080/smartcampus/mobile/teacher!queryDxkq.action?teacherId=8A9EAE704544682901456DC5F0BA04E6
+---------------------------------------------------------------------------------------------------
+特教的数据
+web 
+10.30.149.220 
+administrator/nbsecs01[    
+www.nblyxx.com:60220
+
+db  
+10.30.149.221
+www.nblyxx.com:60221
+
+web网址：
+http://10.30.149.220/smartcampus
+	
+admin/123456
+
+1步 = 0.04卡路里 = 1*0.7/1000 公里（千米） 1步=0.7米
+------------------------------------------------------------------------
+局端正式环境
+
+数据库
+10.24.6.52
+smart/education  
+
+web
+admin/123456
+---------------------------------------------------------------------------------------------------
+146是最新的new慈湖
+10.24.64.146/smartcampus      admin/00000000
+
+http://10.24.64.146/smartcampus/homepage/index!index_qd.action  
+大屏访问（慈湖的蓝色大屏）：http://localhost:8080/SmartCampus/homepage/index!index_qd.action
+tly1008033
+kqrw中建好任务，srit_ZDYKW_JG就会有40个人，默认状态是未到，已刷卡，正常和迟到的人就会往srit_dp中插入数据，index_qd.action是读的srit_dp中的人
+12点srit_dp数据会清空一次
+
+web系统中建一条kqrw数据，比如选择两个老师后保存，srit_dp_jl（含kqid）,srit_zdykq_jg(含kqid),srit_zdykq(含kqid)这三张表中会插入各两条数据，原先根据kqid查没有数据
+
+慈湖远程桌面：10.20.0.209:3389 用户名/密码：	/Tly1008033
+慈湖教育系统网址:
+http://10.20.0.209/smartcampus   
+admin/00000000
+
+http://localhost:8080/SmartCampus/homepage/index!index_qd.action
+mobile部署网址：10.30.46.220 administrator llx
+
+qdhy_indexVersion1.0.jsp最早的签到版本有圈比例（橘红色背景）
+qdhy_index.jsp最新的没有圈的签到（橘红色背景）
+qd_index.jsp蓝色的有迟到和未迟到（蓝色背景）
+---------------------------------------------------------------------------------------------------
+svn技术：
+svn地址：http://10.1.23.163:81/svn
+用户名：xiey密码：Srit@wlw
+http://10.1.23.163:81/svn/code/project_nbjw/SmartCampusJs    
+http://10.1.23.163:81/svn/code/project_nbjw/SmartEducationJs
+
+xiey密码：Srit@wlw
+xiey密码：Srit@wlw
+xiey密码：Srit@wlw
+xiey密码：Srit@wlw
+xiey密码：Srit@wlw
+
+*******************
+turtosesvn可以从服务器上拿下项目，要变为本地，就是没有绿色标记，可以去掉.svn文件夹即可
+svn检出项目过程：
+1.tortoiseSVN->Repo-brower->在url中输入svn项目的地址，选中一个项目checkout就行（左边选中项目再check out就行），检出地址一般放在workspace项目下，再用eclipse导入项目
+2.右键SVN CheckOut（最好在直接workspaces目录下操作）
+********************
+svn用法：
+每天记得项目右键team-更新
+income mode 
+conflick mode 先要看冲突模式
+
+提交代码总结：svn用法总结 首先选中一个项目，team->资源同步->先处理红色标记(conflick mode)的冲突->在incoming/outcoming模式下，incoming是服务器上的，outcoming是你自己改过的文件	
+outcoming模式下可以选中多个文件，在提交。
+
+处理冲突的方法：
+1.先拷贝自己本地的新文件，2.在该模式下覆盖/更新替换为服务器上的代码，3.在根据本地备份文件修改代码
+
+更新文件的方法：
+选中项目-team-再资源同步，先看红色 再incomging mode ,在incoming mode选中文件点击更新，因为服务器上是最新的文件
+
+svn插件安装：解压site-1.8.22.zip,\MyEclipse 8.5\dropins\SVN 目录下放入下面解压出来的文件
+ssss             aicaodizhi@gmail.com http://www.22xxoo.org/
+
+微信svn svn://10.1.21.110:2401/repos/项目工作库/开发类项目/微信公众平台/产品库/srit
+
+同志们：普及一下车贴与出车登记表的区别：1、车贴是指入职满2年后，职工有车的可以申请车贴。2、出车单是指不管你有没有车贴，只要你在老三区以及鄞州区以外出车办公的，都可申请。相应的地区有相应的补贴标准。超出标准外的地区，可按实际公里数计算，每公里0.8元。
+---------------------------------------------------------------------------------------------------
+周报上传网址：
+http://10.88.89.252/smb/
+xieyi 123456
+
+周报svn上传地址：
+http://10.1.23.163:81/svn
+---------------------------------------------------------------------------------------------------
+js技术：
+
+onblur 离开焦点
+
+onfocus 集中焦点
+
+js对象
+var person={firstname:"Bill",lastname:"gates",age:56,eyecolor:"blue"}
+person.firstname 等价于 person["firstname"]
+
+去掉中间的空格：
+s_place = s_place.replace(/\s/g, "");
+
+定义数组：
+var array = s_place.split(","); 
+
+获取数组长度：
+array.length
+
+对象中传变量：
+对象可以用''号，如：cc={a:'xieyi',b:'xiekan'}
+var a = "555";
+
+cc = {ci:a,cv:"666"};
+访问可以用cc.ci或者cc["ci"]
+
+截取字符串：
+str = str.substr(0，s.length-1) 截掉最后一位, 后面的参数是截取的长度
+
+页面刷新：
+window.location.reload();
+
+var arr = new Array(3)或者 var arr = []或者var arr = ["George","John","Thomas"];    (var a = [{a=2,m=3},{m=3,a=0}];这种格式错误，因为=不是对象，对象为冒号)
+arr[0] = "George"
+arr[1] = "John"
+arr[2] = "Thomas"
+arr.push("James");
+
+document.getElementById("xxId").style.display="none";
+
+document.getElementById("xxId").className="tab_02";
+
+document.getElementById("bg").style.backgroundColor="#F90";
+
+var all = document.getElementsByName("s_checkbox");  
+var length = all.length;   //获取长度
+
+var obj = document.getElementById("xxId");
+obj.setAttribute("onclick", "javascript:checkAll();");//添加事件
+obj.checked = true/false   //选中/不选中(obj是checkbox情况下)
+
+js没有数据类型 1/3 = 0.33333333333,java中有数据类型的概念1/2等于0
+parseFloat("1"),Number("3") 字符串转数字,相加操作
+
+toFixed(2)*100保留两位小数去百分号
+
+获取百分比并四舍五入：Math.round(0.00712234*10000/100.00)+"%"   ===>  1%
+
+window.onload = function() {xxx} //当页面加载的时候可以调用某些函数
+
+function winready(){xxxx}
+window.onload=winready; //或者window.onload=function(){winready();}
+
+冒号转义：  \:
+<>左右尖括号不需要转义
+  var append = "<option value=\"\" <s\:if test=\"#request.queryParameter[\'teachAreaId\']==null||queryParameter[\'teachAreaId\']==\'\'\">selected=\"selected\"<\/s\:if\>\>请选择</option>";
+
+由于反斜杠本身用作转义符，因此不能直接在脚本中键入一个反斜杠。如果要产生一个反斜杠，必须一起键入两个反斜杠 (\\)。\'   单引号  \"   双引号  \\   反斜杠  
+例子：var a = "'";var a = "\""(var a = """;错误); var a = "\\"(var a = "\",错误因为转义)
+
+js中函数默认的返回值（没写return）是undefined    undefined在布尔值中是false   最好函数有返回值，即便是return false,所以js中函数的return 和 return false一样
+
+var reg = /^0?1[3|4|5|7|8][0-9]\d{8}$/;                  手机
+           /(^\d{15}$)|(^\d{17}([0-9]|X)$)/               身份证
+            isNaN（值）                                   纯数字    
+
+top.location="URL"  <==> window.top.location="URL" <==> top.location.href = "URL"
+location="URL"      <==> window.location="URL"     <==> location.href="URL" 
+
+location.href = "http://www.baidu.com"(加了http://是绝对路径);js实现重定向，本页打开
+top.location.href="" 顶层窗口打开，ifram中比较常用
+java服务端代码实现实现重定向： response.sendRedirect("");可以在jsp中嵌入,重定向地址栏肯定变，就重新发送请求
+java代码实现转发： ServletActionContext.getServletContext().getRequestDispatcher("").forward(arg0, arg1)，一般写在服务器端，jsp中很少嵌入
+或者
+ServletActionContext.getRequest().getRequestDispatcher("").forward(arg0, arg1)
+
+// 在被嵌套时就刷新上级窗口
+if(window.parent != window){
+	window.parent.location.reload(true);
+}
+
+location.replace();
+replace 方法，该方法通过指定URL替换当前缓存在历史里（客户端）的项目，因此当使用replace方法之后，你不能通过“前进”和“后退”来访问已经被替换的URL。//top.jsp
+-------------------------------------------------------------------------------------------------------------
+jquery技术：
+
+
+基本选择器	
+$(‘*’)	匹配页面所有元素
+$(‘#id’)	id选择器
+$(‘.class’)	类选择器
+$(‘element’)	标签选择器
+
+组合/层次选择器	
+$(‘E,F’)	多元素选择器，用”,分隔，同时匹配元素E或元素F
+$(‘E F’)	后代选择器，用空格分隔，匹配E元素所有的后代（不只是子元素、子元素向下递归）元素F
+$(E>F)	子元素选择器，用”>”分隔，匹配E元素的所有直接子元素
+$(‘E+F’)	直接相邻选择器，匹配E元素之后的相邻的同级元素F
+$(‘E~F’)	普通相邻选择器（弟弟选择器），匹配E元素之后的同级元素F（无论直接相邻与否）
+$(‘.class1.class2’)	匹配类名中既包含class1又包含class2的元素
+
+基本过滤选择器	
+$("E:first")	所有E中的第一个    【单个】
+$("E:last")	所有E中的最后一个  【单个】   $('#box li:last').css('background', '#ccc');     //id为#box的元素中最后一个 li
+$("E:not(selector)")	按照selector过滤E    $("li:not(.red)")  选取class不是red的li元素   【集合】
+$("E:even")	所有E中index是偶数  【集合】
+$("E:odd")	所有E中index是奇数   【集合】
+$("E:eq(n)")	所有E中index为n的元素 【单个】   $("div[name='xieyi']").eq(0).text() <==> $("div[name='xieyi']:eq(0)").text()
+$("E:gt(n)")	所有E中index大于n的元素 【集合】
+$("E:ll(n)")	所有E中index小于n的元素 【集合】
+$(":header")	选择h1~h7 元素
+$("div:animated")	选择正在执行动画效果的元素
+$(":fovus") 当前被焦点的元素
+
+
+(jquery 过滤器提供了对应的方法)：
+:first  ==> first()
+:last   ==> last()
+:eq     ==> eq()
+:not(.red)    ==> not('.red')
+
+内容过滤器	
+$(‘E:contains(value)’)	内容中包含value值的元素
+$(‘E:empty’)	内容为空的元素
+$(‘E:has(F)’)	子元素中有F的元素，$(‘div:has(a)’):包含a标签的div
+$(‘E: parent’)	父元素是E的元素，$(‘td: parent’):父元素是td的元素
+
+可视化选择器	
+$(‘E:hidden’)	所有被隐藏的E
+$(‘E:visible’)	所有可见的E
+
+属性过滤选择器 
+$(‘E[attr]’)	含有属性attr的E
+$(‘E[attr=value]’)	属性attr=value的E    $("div[name=xieyi]")  <==>  $("div[name='xieyi']")  <==> $('div[name="xieyi"]')
+$(‘E[attr !=value]’)	属性attr！=value的E
+$(‘E[attr ^=value]’)	属性attr以value开头的E
+$(‘E[attr $=value]’)	属性attr以value结尾的E
+$(‘E[attr =value]’)	属性attr包含value的E
+$(‘E[attr][attr =value]’)	可以连用
+
+子元素过滤器	
+$(‘E:nth-child(n)’)	E的第n个子节点
+$(‘E:nth-child(3n+1)’)	E的index符合3n+1表达式的子节点
+$(‘E:nth-child(even)’)	E的index为偶数的子节点
+$(‘E:nth-child(odd)’)	E的index为奇数的子节点
+$(‘E:first-clild’)	所有E的第一个子节点
+$(‘E:last-clild’)	所有E的最后一个子节点
+$(‘E:only-clild’)	只有唯一子节点的E的子节点
+
+表单元素选择器
+:input	选取所有input,textarea,select和button元素
+:text   选取所有单行文本框 type="text"
+:password 选取所有密码框   type="password"
+:radio    选取所有单选框   type="radio"
+:checkbox 选取所有复选框   type="checkbox"
+:submit   选取所有提交按钮 type="submit"
+:reset    选取所有重置按钮 type="reset"
+:image    选取所有图像按钮 type="image"
+:button   选取所有普通按钮，即button元素
+:file     选取所有文件按钮 type="file"
+:hidden   选取所有不可见的 type="hidden"
+
+表单元素过滤器	
+$(‘E:type’)	特定类型的input
+$(‘:checked’)	被选中的checkbox或radio
+$(‘option: selected’)	被选中的option
+ 
+综合例子：$("input:checkbox[name='s_checkbox']:checked")  <==> $(":checkbox[name='s_checkbox']:checked") 表单元素选择器+属性选择器+表单元素过滤器
+jquery选出来的是集合就有length属性  如：$("input:checkbox[name='s_checkbox']:checked").length
+	
+append                                    在指定的标签中末尾追加
+html                                      在指定的标签中嵌入，原来东西没有了 html和val一样还可以取 html() val()
+text                                      是特殊的html,因为text()只能设置文本，如text("aaa good"); 不能设置html标签， text("<span>good study</span>"),但是html可以 html("<span>hhahhah </span>");
+find("input")                             找到所有子孙input元素
+empty();                                  删除元素中的内容，而不是删除元素本身
+closest();                                找到所选元素最近的元素 $("li").closest("ul");
+siblings();                               遍历同一层上的所有元素
+replaceWith(<p>dddd</p>)                  替换内容
+$("#element_Id")                          放在if()中永远返回true,无论该元素存在与否
+$('#button').attr('disabled',"true");     禁用input按钮
+
+jquery判断某元素是否存在$("#aaa").length==0     ==0表示元素不存在
+var obj= $("#xxId" ) 此时的变量obj就是一个对象，既然是一个对象，这个对象就具有length的属性
+if(obj.length>0){ 
+    alert("element is exist.");  
+}else{  
+    alert("element not be found");  
+} 
+
+jquery遍历数组(3种写法)：
+var array = [1,2,3,4];
+$(array).each(function(index){  //注：each中的(return false;//跳出所有循环，相当于break) (return true  //跳出本次循环，相当于continue) 
+    alert(this);
+    alert(array[index]);
+});
+$.each(array,function(index){
+    alert(this);
+});
+for(var i=0;j<array.length-1;i++) {
+	alert(array[i]);
+}
+
+遍历所有选中的checkbox
+$("input[name='s_checkbox']:checked").each(function(){
+
+});
+
+$("img") $("p") $("#myTop") $("span.Italian") ( <span class="Italian"></span>) 
+$("div p") 选择子元素 （包括子孙元素）
+$("body > p") 选择孩子元素（不包括子孙元素）
+$("div div p")选择子元素的子元素  
+$("div p#my_blurb")获取div的子元素p,且p元素中有id为my_blurb
+$("div div") 返回div下的所有div子元素包括孙子div元素
+$("div")选择页面上的所有div
+$("div.my_class") 选择my_class类的div
+$("div#top ")（<div id="top"></div>）
+$("li.fish") （<li class="fish"></div>）
+$("img[alt]") 选择设置alt属性的img 
+$("input[type='text']") 选择所有文本框 等价于$("input:text")
+$("input[name='a']") 选择所有name为a的input
+$("input:checkbox[name='s_checkbox']:checked")选中所有checkbox且选中的状态 返回的是数组可以取长度length
+$('li[name="元素name"]')  $("li[name='元素name']") 衍生出去 input[type='checkbox']
+总结：元素后面跟[]就是属性过滤
+
+$("div[id*='order']")查询所有div的id中有order的div	
+$("tr:odd")  序列为奇数的 1 3
+$("tr:even") 序列为偶数的 0 2  （0位第一行）
+$("#pice_tab li")  	<ul id="pice_tab">   所有ul的子元素
+
+$("button").click(function(){}); $("div").click(function(){}); li,a 也有 onclick 
+
+$("#myElement").bind('click',function(){});
+$("#myElement").bind('focus',function(){});
+$("#myElement").unbind('click');//去掉click
+$("#myElement").unbind();去除绑定到myElement的所有事件
+
+同时绑定两个事件
+$("#myElement").bind({
+	'click':function(){},
+	'mouseover' function(){}
+});
+
+下面是4个表单事件：
+//表单提交前验证字段属性
+//submit用途
+$("#formId").submit(function(){
+	if($("#username").val() == '') {
+		alert("name is empty");
+		return false;不写这句表单成功还是失败都会提交
+	}
+});
+//focus用途
+$("username").focus(function(){
+	var field = $(this);
+	if(field.val() == field.attr('defaultValue')){
+		field.val('');
+	}
+});    相关的html<input name="username" type="text" id="username" value="please type your name"/>
+//blur用途
+$("#quatity").blur(function(){
+	var fieldValue = $(this).val();
+	if(isNaN(fieldValue)) {
+		alert("please input number");
+	}
+});   相关的html<input name="quatity" type="text" id="quatity">
+//change用途
+$("#county").change(function(){
+	if($(this).val() == 'please choose a county') {
+		alert('please select a country');
+	}
+});
+
+$("#myTop").css("background-color","blue");
+
+$(".nav_item").each(function(){
+	$(this).hide();	
+});
+
+去掉所有class="guess_box"的事件元素
+$(".guess_box").each(function(){
+	$(this).unbind();                         //只去除click事件用 $(this).unbind('click');
+});
+
+查找第一个子元素并显示
+$("#buttonBar").children().eq(0).show();
+
+查找div下的子孙元素中是text的所有元素点击时去除样式
+$("div.win_info_card").find("input:type='text'").bind('click',function(){
+	$(this).removeClass("redBorder");
+})
+
+选择表单中的所有text中的第一个添加焦点
+$(":text:first").focus();
+多个表单可以这样处理
+$("#formId :text:first").focus();这里的:text可以理解为属性选择器，因为连个属性选择器代表子孙关系
+
+防止表单的多次提交
+$("#formId").submit(function(){
+	$("#submit").attr("disabled",true);
+});
+单个表单使用下面的更好
+$("form").submit(function(){
+	$("input[type="submit"]").attr("disabled", true);
+});
+表单提交时同时改变提交按钮的值
+$("form").submit(function(){
+	var subButton = $(this).find(":submit");	
+	subButton.attr("disabled",true);
+	subButton.val("send message..");
+});
+
+表单中的选择器（:input,:text,:password,:radio,:checkbox,:submit,:image,:reset,:button,:file,:hidden）
+
+获得select标签（ID="state"）中选中的option的值
+var selectedVal = $("#state :selected").val();
+
+
+select 选中option
+   $("#selector").val("pxx");
+
+//隔行变色
+$('ul[name="change_ul"]:even').hover(
+		function(){
+	    	$(this).addClass("red");
+		},
+		function(){
+			$(this).removeClass("red");
+});
+$('ul[name="change_ul"]:odd').hover(
+		function(){
+			$(this).removeClass("t_gray");
+	    	$(this).addClass("red");
+		},
+		function(){
+			$(this).removeClass("red");
+			$(this).addClass("t_gray");
+});
+
+<style type="text/css">
+.redBoder
+{
+border: 2px solid #F85313
+}
+</style>
+
+toggle() hide() show() slideUp() slideDown() fadeIn() fadeOut()  hasClass("current") (<div class="protected"></div>) removeClass("current") addClass("redBoder")
+hover( function (){},function (){}) remove()detach() empty()  html(内容) append(内容) prepend(内容) val(内容) before(内容) after(内容) 
+[children(表达式)  parent(表达式) prev(表达式) next(表达式) 如：next(".selected")] parents() first()  
+
+slideDown 通过高度变换显示
+slideUp   通过高度变换隐藏
+
+toggleClass("redBorder") 不存在添加样式否则删除样式
+toggle(function(){},function(){});响应的是click事件，第一次单击执行的一个函数，第二次单击执行第二个函数
+
+$("#"+type).val(value);
+$("#p").html(value)会把id为p的标签中的内容全部替换掉，.html()可以去到标签，可以黏贴到网页的其他地方
+================================
+//禁用控件
+$("#xxid").attr("disabled",true);
+$("#xxid").prop("disabled",true);
+
+//checkbox:
+prop("checked")  ==> true,false
+$("input[type='checkbox']").prop("checked", true);
+
+attr("checked")  ==> checked,undefined  1.6以后上面就失效原先attr("checked",true)正确;
+$("input[type='checkbox']").attr("checked",  "checked");
+
+//option:
+				$("#openstatus option").each(function(){
+					var val = $(this).val();
+					if(data[0].openstatus == val){
+						$(this).attr('selected','selected');
+						return false;
+					}
+				});
+
+$("#edit_sex option").each(function(){
+	var val = $(this).val();
+	var text = $(this).text();
+	$(this).attr('selected','selected');
+	$(this).prop('selected',true);
+});
+
+具有 true 和 false 两个属性的属性，如 checked, selected 或者 disabled 使用prop()，其他的使用 attr()
+========================================
+<select onchange="removeRedBorder(this);"></select>这里的this是javascript中的this,就是把当前对象传给方法，再加$就编成了jquery
+function removeRedBorder(obj) {
+	$(obj).removeClass("redBoder");
+}不要用 $(this).removeClass,因为this相当于jquery关键字,例如在each中的关键字 $(this)
+
+
+jquery一句话搞定：$(找到select).bind('change',function(){
+			$(this).removeClass("redBoder");
+		  })
+
+鼠标事件：click dbclick focusin focusout hover mousedown mouseenter mouseleave mousemove  mouseout mouseover mouseup toggle
+键盘事件：keydown keypress keyup
+表单事件：blur change focus select submit
+浏览器事件： error resize scrol
+文档加载： load ready unload
+
+$(document).ready(function(){}); 和 $().ready(function(){});
+
+
+ $(document).ready(function(){}) 里的代码是在页面内容都加载完才执行的 
+$(function(){ })  这是jquery里的,是当文档载入完毕就执行,的意思. 
+上面两个函数等价，比load好load需要web中的图像等flash也加载完
+
+$.contains(document.body,document.getElementById("header")) 结果是true，检查第一参数中的所有子元素中是否含有第二个参数，有返回true,一般是比较dom元素  
+
+调用函数的两种方式：
+function myFuncl(){}    调用函数myFunel();
+function myFunc2 = function(){};    $("#myElement").click(myFunc2);作为处理函数调用时不需要加（） 
+		
+
+子页面获取父页面元素：
+    格式：$("#父页面元素id" , parent.document);
+    实例：$("#pBtnOk" , parent.document).click();
+
+子页面调用父页面方法：
+parent.chage_region(value);    参考jd系统left.jsp和main.jsp的关系
+
+父页面获取子页面元素：
+    格式：$("#iframe的ID").contents().find("#iframe中的控件ID").click(); 
+    实例：$("#ifm").contents().find("#iBtnOk").click(); // ifm 为 <iframe> 标签 id; iBtnOk 为子页面按钮 id 
+
+
+父页面调用子页面方法：
+    格式：$("#iframe的ID")[0].contentWindow.iframe方法(); 
+    实例：$("#ifm")[0].contentWindow().iClick(); // ifm 为 <iframe> 标签 id; iClick为子页面 js 方法
+
+getScript() 方法通过 HTTP GET 请求载入并执行 JavaScript 文件。后面还有一个函数成功执行  qdhy_indexVersion1.0.jsp文件有
+等价于$.ajax({
+  url: url,
+  dataType: "script",
+  success: success
+});
+
+//设置时间周期
+	var t=setInterval(function(){
+		if (n<3){n=n+1}else(n=0);
+		//渐隐渐现
+		$("#pice_tab li").fadeOut().eq(n).fadeIn();
+		//显示隐藏
+		//$("#pice_tab li").hide().eq(n).show();
+	},3000)
+
+
+
+获得父窗口中的元素值：
+window.parent.document.getElementById("myEle").innerHTML = html;     js
+$("#myEle", window.parent.document).html(html);                       jquery
+即指明了是在 window.parent.document 中查找 id=myEle 的元素。
+例子：参考$("#regionIds").val($("#regionIds",parent.document).val());  index.jsp
+
+
+           //在iframe中查找父页面元素
+            alert($('#default', window.parent.document).html());
+            //在iframe中调用父页面中定义的方法
+            parent.getHelloWorld();                                      jquery
+            //在iframe中调用父页面中定义的变量
+            alert(parent.hello);                                          jauery
+
+
+
+
+js(
+    var container = document.createElement('div');
+    document.body.appendChild(container);
+)
+
+jquery创建div:
+    var parentdiv=$('<div></div>');        //创建一个父div
+    parentdiv.attr('id','parent');        //给父div设置id
+    parentdiv.addclass('parentdiv');    //添加css样式
+    var childdiv=$('<div></div>');        //创建一个子div
+    childdiv.attr('id','child');            //给子div设置id
+    childdiv.addclass('childdiv');    //添加css样式
+    childdiv.appendto(parentdiv);        //将子div添加到父div中
+    parentdiv.appendto('body');            //将父div添加到body中
+-------------------------------------------------------------------------------------------------------------
+java技术：
+
+default(不同包不可以访问）
+public--都可访问(公有)   
+private--类内可访问（私有）
+protected--包内和子类可访问（保护）
+不写(default)--包内可访问 （默认）
+
+public>protected>default>private
+
+接口属性默认public static final 接口方法默认public  
+抽象类中的抽象方法的访问修饰分别为 public、protected、default(缺省，默认值 不用写) 
+
+
+object对象 转 json： 
+JSONArray.fromObject(sritKqrcService.queryAll(map)).toString()
+
+json转对象： 
+Map<String,Object> map = JsonUnit.init().readValue(results, Map.class)  results为json字符串
+
+
+set集合转数组集合：
+Set<String> set =new HashSet<Stirng>();
+String[] strArray = set.toArray(new String[2]);
+
+遍历map:
+Map<Object, Object> map = new HashMap<Object, Object>();  
+for(Map.Entry<Object, Object> entry : map.entryset()){  
+    System.out.print("Key = "+entry.getKey()+",value="+entry.getValue());  
+}  
+
+去掉中间的空格:
+s_place = s_place.replace(/\s/g, "");
+
+for if while中声明的变量时局部变量，外面的for.if,while访问不到,全局变量for if while都可以访问,所以在调试时过了if,if中的变量就不显示了，已经销毁
+
+在源码下创建一个目录，该目录下没有源代码文件  右键选择folder
+
+junit调试的时候可以右击copy trace,再在记事本中打开复制便于查看
+
+request.getSession().getServletContext().getRealPath("/") ==》  request.getSession().getServletContext().getRealPath("/")
+httpresponse有两层含义：一个是直接打印到response的printwriter打印，另一个直接用jsp打印，其实action转到某张jsp就是打印页面数据只是里面有了html标签罢了
+
+request: HttpSession
+response:PrintWriter
+
+看work就会明白javascropt也是在服务器端，那么就可以理解var a = <%=request.getParameter("XX")%>这个方法了；
+
+request.setAttribute("test1","aa");
+jsp两种获取方法：1.#request.test1
+                 2.<%HttpServletRequest request1 = ServletActionContext.getRequest();
+			String test=request1.getAttribute("test1");
+		    %>
+
+"<div style=\"height:280px; margin:0px 0px; width:50%; float:left;\" id=\"container_"+i+"\"></div>"冒号中不能有冒号因为不知道配对的哪个冒号
+'<div style="height:280px; margin:0px 0px; width:50%; float:left;" id="container_'+i+'"></div>' //不需要转义 会把整串当字符串处理，如果里面有'就有上面的问题
+
+ognl 
+	格式：%{}
+语法：#user   
+      name  无#(表示从栈顶对象中取属性值，直接写属性名,把user对象放在栈顶，user对象中有name字段,map对象也可以放在栈顶，属性字段变成了key值)
+
+<s:>标签可以在html和js中嵌入，因为js和html最终是servelet的java代码,跟<%%>原理嵌入相同，因为struts标签就是java代码的替代，只是它是jsp中简便方式
+
+action放在值栈中，可以获取action中的属性，因为action是放在栈顶的，该属性要声明好get和set,用var a = '<s:property value="list_data"/>'，
+但是去这集合没多少用，最好在<s:iterator value="list_data" var="item" status="i">用
+
+var a = "<s:property value="ZRC"/>" 冒号中嵌入<s:property value="ZRC">,虽然带冒号但是没有问题，var b = '<s:property value="ZRC"/>'这个也对，个人认为这个好
+但是外面又要套一层时用后面会有问题，你可以把嵌入<s:property value="ZRC"忽视再来看（这招很绝，其他问题引刃而解）冒号中有没有冒号有要转义，单引号中有没有单引号有要转义
+
+
+ognl的：#request.page.data相当于request.getParameter("page").getDate();
+${pageContext.request.contextPath}或<%=request.getContextPath()%>取出来的就是/ajax01,而"/"代表的含义就是http://localhost:8080   这种方式是相对路径
+${pageContext.request.contextPath}/login.jsp  
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";这种方式是绝对路径
+
+<%=request.getContextPath() %>/homepage/index!index_flow.action  ==  http://localhost:8080/SmartCampus/homepage/index!index_flow.action
+
+未定义的列一般是sql语句有问题
+
+form表单提交是刷新整个页面，相当于页面重新加载，新加载的页面中，onload事件是可以触发 //可以用iframe实现无刷新表单提交
+（struts2这样理解：导入功能在页面中提交表单，触发action中的方法，方法中没有指定页面，刷出来的是空白页面）
+jsp中的把表单提交可以理解为提交到action指定的页面，就会刷到提交的页面，就会刷新，假设原来是当前页，提交到当前页就会刷新，就是有页面转向可以认为是刷新
+  	
+字符串转时间不要用（Date）强转用DateUtils.stringToUtilDat中的SimpleDateFormatz转
+
+listerer监听器是监听web.xml启动时执行
+
+ServletActionContext.getRequest().getParameter 和 jsp中<%=request.getParameter("monitorId")%>是同一个 
+
+
+			ActionContext ctx = ActionContext.getContext()
+
+//这一个是底层		HttpServletRequest req = (HttpServletRequest) ctx.get(ServletActionContext.HTTP_REQUEST);  这个方法应该归为底层
+			req.setAttribute("name1", "jj");
+			req.getAttribute("name1");   //#request.name
+
+//三个非底层		Map request = (Map)context.get("request"); 
+			request.put("greeting", "欢迎您来到程序员之家");
+			request.get("greeting");   /#request.greeting
+			
+			ctx.getSession().put("name2", "haha");
+			ctx.getSession().get("name2");    // #session.name2
+			
+			ctx.getApplication().put("name3", "haha");
+			ctx.getApplication().get("name3"); //#application.name3
+
+测试结果：
+			ServletActionContext.getRequest().setAttribute("username", "XIEYI");
+			ActionContext ctx = ActionContext.getContext();
+			Map request = (Map)ctx.get("request"); 
+			request.put("password", "jjgggg");
+
+
+--->
+var sss = "<s:property value="#request.username"/>"; XIEYI
+var sss = "<s:property value="#request.password"/>"; jjgggg
+var sss = "<%=request.getAttribute("username")%>"; XIEYI
+var sss = "<%=request.getAttribute("password")%>"; jjgggg
+说明ServletActionContext和ActionContext是互通的，设置一个相当于往另一个存值	
+
+
+ActionContext ctx = ActionContext.getContext(); Map<String,Object> map = ctx.getParameters(); map.get("参数名")
+<====>HttpServletRequest request = ServletActionContext.getRequest(); request.getParameter("参数名");			
+
+------------------------------			
+ActionContext.getContext()不要理解为是一个map，它是一个数据结构，调用put,get往值栈中存值，调用push,pop往stack中存值
+
+值栈和map的相互转换：ValueStack.getContext()方法得到的Map其实就是ActionContext的Map
+ValueStack vs = ActionContext.getContext().getValueStack();传智哪里有点问题值栈应该单单指栈，没有包括map
+
+Struts2框架下，操作ActionContext要比操作request的Map更加方便。因此，笔者建议：尽量使用ActionContext而不是request的Map来传递值。这里的ActionContext指的是ActionContext.getContext的put,get方法传值
+request的Map有时候会包含其他框架设置的值，比如Spring框架。获取这些值的时候就需要用request的Map了，因为ActionContext里没有。
+通过ActionContext可以获得HttpServletRequest类：“HttpServletRequest request = (HttpServletRequest) actionContext.get(StrutsStatics.HTTP_REQUEST);”。
+通过ActionContext也可以获得request的Map：“Map requestMap = (Map) actionContext.get("request");”。因此，在JSP标签中，使用表达式“#request”就可以获得request的Map的数	据。
+-------------------------------------------------------------
+与servlet打交道，底层的
+			HttpServletRequest request = ServletActionContext.getRequest();
+			request.setAttribute("name1", "jj");
+			request.getAttribute("name1");   //#request.name2
+				
+			HttpSession session = request.getSession();
+			session.setAttribute("name2", "haha");
+			session.getAttribute("name2");  //#session.name2
+			
+			session.getServletContext().setAttribute("name3", "haha");         或者用ServletContext application =  	ServletActionContext.getServletContext()
+			session.getServletContext().getAttribute("name3"); //#application.name3
+
+
+action中接收参数三种方法：
+1.定义属性并且提供get和setter方法
+2.ActionContext ctx = ActionContext.getContext(); Map<String,Object> map = ctx.getParameters(); map.get("参数名")
+3.HttpServletRequest request = ServletActionContext.getRequest(); request.getParameter("参数名");
+
+HttpServletRequest中有两个功能：可以往里存值setAttribute，也可以获取请求参数getParameter，这两个是没有关联的,因此getAttribute不能获得参数
+
+action接收表单参数两种方法
+1.定义属性并且提供get和setter方法（不建议，参数多的时候get和set方法比较多）
+2.用modelDriver
+
+表单提交和地址栏提交都会封装参数到action
+
+action请求过程中在转到页面，这个过程可以算作一次请求过程，虽然getRequestURI()变了，这个过程发生在内部，但是getQueryString()还是带着的，所以获取request.getParameter不变
+getQueryString()和request.getParameter可以认为等价,只是一个取全部，一个是一个一个取参数
+
+要理解servlet中的PrintWriter和URl中的PrintWriter
+
+理解getParameter 和 getQueryStirng，后面包括前面的全部
+
+request.getParameter可以获取表单post提交的数据
+
+用户拦截器中的ServletActionContext.getRequest().getRequestURI()【action】;和跳到的jsp中的request.getRequestURI()不同[jsp]
+
+out，是PrintWrite类的实例。
+1.Servlet规范说明，不能既调用 response.getOutputStream()，又调用response.getWriter()，无论先调用哪一个，在调用第二个时候应会抛出 IllegalStateException.
+2.servlet代码中有out.write(””)，这个和JSP中缺省调用的response.getOutputStream()产生冲突.
+因为在jsp中，out变量是通过response.getWriter得到的，在程序中既用了 response.getOutputStream，又用了out变量，故出现以上错误。
+
+可以用一个list,因为ibtatis底层执行一次就实例化一个list返回
+
+拦截器中获取ActionContext: 
+ActionContext actionContext = invocation.getInvocationContext();  这里的invocation值
+
+请求过来：
+http://localhost:8080/SmartCampus/dolphin/index!index.action?NAME=KKK&SSS=444
+request总结：
+ServletActionContext.getRequest().getRequestURI();                /SmartCampus/dolphin/index!index.action
+ServletActionContext.getRequest().getRequestURL()                 http://localhost:8080/SmartCampus/dolphin/index!index.action
+ServletActionContext.getRequest().getContextPath()                /SmartCampus    加一个“/”就相当于更目录
+ServletActionContext.getRequest().getCharacterEncoding()          utf-8
+ServletActionContext.getRequest().getLocalPort()	          8080
+ServletActionContext.getRequest().getAttribute("属性名")
+ServletActionContext.getRequest().getParameter("NAME")            KKK 区分大小写，肯定区分的
+ServletActionContext.getRequest().getRealPath("aaaa")             F:\Workspaces\MyEclipse 8.5\.metadata\.me_tcat\webapps\SmartCampus\aaaa
+ServletActionContext.getRequest().getQueryString()                NAME=KKK&SSS=444
+ServletActionContext.getRequest().getServerName()                localhost
+ServletActionContext.getRequest().getServerPort()                8080
+ServletActionContext.getRequest().getServletPath()               /dolphin/index!index.action
+ServletActionContext.getRequest().getSession()
+
+
+response:
+ServletActionContext.getResponse().getCharacterEncoding()        utf-8 
+ActionContext.getContext().getParameters()                        {NAME=[Ljava.lang.String;@7f0f3f, SSS=[Ljava.lang.String;@1c1f888}
+
+好好的理解：调用servlet后，servlet会向浏览器返回数据，就是打印，因为不方便，可以用jsp，直接打印html或者脚本
+
+listener在tomcat启动时调用，捕捉到服务器的启动和停止
+filter 在访问地址时过滤，多个filter按照<filter-mapping></filter-mapping>配置顺序执行，<filter></fileter>必须声明在<filter-mapping>之前
+------------------------------------------------------------------------------------------------------------
+html技术：
+
+  <a href="javascript:;" id="a_out" onclick="out_click();">a标签中的href不能设为空如<a href="" id="a_out" onclick="out_click();">如果out_click有表单提交
+那么会出现问题Software caused connection abort: socket write error
+而 javascript:; 表示什么都不执行，这样点击<a>时就没有任何反应。和javascript:void(0)功能一样  href=""就相当于刷新页面，就不会去执行onclick事件了
+<a href="">就相当于链接到当前页面
+
+checkbox有值属性
+ 
+ifaram实现异步刷新：
+　（如果一个页面里面有框架。。随便点页面里的连接，要求在这个<iframe> 里打开。在iframe 中加入name=** （**自己设定）
+<iframe name=**  ></iframe>
+　然后在修改默认打开模式，：网页HEAD中加上<a href=URL target=**>或部分连接的目标框架设为（**））
+
+
+        <select name="edit_type" id="edit_type" onchange="chage_type()">
+          <option value="0" >考勤任务</option>
+          <option value="1" >签到任务</option>
+        </select>
+没有选中表单提交的值是value='0'
+
+html中嵌入java代码
+<form>
+<%
+	if(request.getAttribute("msg")!=null){
+%>
+	<font color="red"><%=request.getAttribute("msg")%></font>
+<%
+	}
+%>
+</form>
+
+<div id="aa"><font></font></div>
+设置font中的值用text,因此用$("#aa").children().text("jjjkkk");
+
+<font>元素有用text()方法获取其中的内容
+
+div水平和垂直居中
+line-height,这里一定要保证height和line-height的高度是相同的，
+text-align:是文本的水平居中。
+vertical-align:是文本的垂直居中。
+<div style="height:22px;line-height:22px;text-align:center; vertical-align:middle;">
+哈哈，测试
+</div>
+------------------------------- ------------------------------------------------------------------------------
+ibtatis技术：
+
+ibtatis:
+   <update id="SritXmkqJg_update" parameterClass="srit.jw.domain.SritXmkqJg" >
+    update SRIT_XMKQ_JG
+    set KQJG = #kqjg#,
+    where to_char(kqsj,'yyyy-MM-dd')=to_char(to_date(#kqsj#,'yyyy-MM-dd hh24:mi'),'yyyy-MM-dd')  这里kqjg和SritXmkqJg实体中的字段对应
+  </update>
+
+
+sqlmap中的select标签中结尾不能有分号 
+update没有执行表示死锁事务没有提交  
+
+xml和domain的对应关系：
+varchar  ====> String
+char     ====> String
+number   ====> Short
+date     ====> Date
+
+定义别名：
+<typeAliasalias="Student"type="com.iflytek.entity.Student"/>    ====》resultClass="Student"
+
+
+#号和$$要以值得方式去理解(java存的就是值得概念 如map [name=xieyi,code=xiekan])
+queryParameter.put("starDate", "2012-12-12");   xml中 kqsj >= #stratDate#(就是>='2012-12-12'),这里的值就是2012-12-12，就是用字符串中的值替换#stratDate#，外面再加''
+queryParameter.put("starDate", "2012-12-12");    xml中 kqsj >= '$stratDate$'(就是>='2012-12-12'),这里的值就是2012-12-12,就是用字符串中的值替换$stratDate$
+
+ibtatis ##就是占位符的方法 $$就是用的是字符串的拼接，sql会有注入的问题, $中间的变量就是直接替换成值的,  #会根据变量的类型来进行替换
+ 比如articleTitle的类型是string, 值是"标题"的时候,  $articleTitle$ = 标题,  #articleTitle# = '标题'
+               
+$ 的作用实际上是字符串拼接，
+         select * from  $tableName$
+         等效于
+         StringBuffer sb = new StringBuffer(256);
+         sb.append("select * from").append(tableName);
+         sb.toString();
+#用于变量替换
+        select * from table where id = #id#
+        等效于
+        prepareStement =stmt.createPrepareStement("select * from table where id = ?")
+        prepareStement.setString(1,'abc'); 
+	占位符传什么嵌入什么传‘abc’ id='abc', 传0 id=0
+
+那什么时候用$，什么时候 用 #
+       (1)对于变量部分， 应当使用#， 这样可以有效的防止sql注入，具体执行时，# 都是用到了prepareStement，这样对效率也有一定的提升
+            #方式一般用于传入插入/更新的值或查询/删除的where条件
+       (2) $只是简单的字符拼接而已，对于非变量部分， 那只能使用$， 实际上， 在很多场合，$也是有很多实际意义的
+             $方式一般用于传入数据库对象．例如传入表名.
+             例如:
+             select  *  from  $tableName$  对于不同的表执行统一的查询
+             update  $tableName$  set  name = #name#  每个实体一张表，改变不用实体的状态
+             特别说明， $只是字符串拼接，所以要特别小心sql注入问题。
+      (3)能同事用#和$的时候最好用#
+##和$$都一样，可以通过把查询条件放在map中实现
+
+
+----------------------------------------------------------------------------------------------------------------
+oracle技术：
+
+F:\app\Administrator\product\11.2.0\dbhome_1\NETWORK\ADMIN
+tnsnames.ora文件
+
+在plsql登入页面直接写Database名称: 10.1.23.166:1521/orcl   输入用户名和密码 不用配置文件别名
+
+oracle默认本地账户system/system
+
+查找一个节点的所有直属子节点（所有后代）
+select * from tb_menu m start with m.id=1 connect by m.parent=prior m.id;
+
+清空表数据:
+truncate table srit_cljl
+
+oracle保留小数：
+round(sum(t.step_number)/count(t.step_number),1) as avgs 
+
+查找周几： 
+to_number(to_char(to_date(kqsj,'yyyy-mm-dd hh24:mi:ss'),'D'))   kqsj是字符串格式
+或者 to_number(to_char(kqsj,'D'))   kqsj是日期格式
+例子：select  to_number(to_char(sysdate,'D')) from dual
+
+计算星期几 (3表示星期2):
+to_number(to_char(to_date(t.KQSJ,'yyyy-mm-dd hh24:mi:ss'),'D')) as xq
+
+实现自定义排序，不用升序和降序：
+ order by case t.kqjg when '2' then '3' when '1' then '2' when '0' then '1' end  
+ order by case t.kqjg when '2' then '3' when '1' then '2' when '0' then '1' else nvl(a.kqjg,0) end
+
+去掉重复数据：
+select ... union select ....
+不去掉重复数：
+select ... union all select ....
+
+执行存储过程（pro_update_user是存储过程名称):
+ call pro_update_user();   
+	
+【to_char 和 to_date 用法】：
+to_char 是把日期或数字转换为字符串
+to_date 是把字符串转换为数据库中得日期类型转换函数
+to_number 将字符转化为数字
+to_char(sksj, 'yyyy-mm-dd hh24:mi:ss') as sksj  sksj为data类型
+to_char(birthday,'yyyy/mm/dd') = '1999/10/24'  birthday为date类型
+to_char(to_date(t.KQSJ,'yyyy-mm-dd hh24:mi'),'yyyy-mm-dd') >= #starDate#  t.KQSJ是字符串格式不是日期格式 值为："2016-03-16 07:50"
+to_char(to_date(t.KQSJ,'yyyy-mm-dd hh24:mi'),'yyyy-mm-dd hh24:mi') >= #appStartDate#   kqsj是字符串多次一句
+to_char(to_date(t.KQSJ,'yyyy-mm-dd hh24:mi'),'yyyy-mm-dd') >= #starDate#  这个是为了截取没办法  
+select to_char(sysdate,'yyyy-mm-dd hh24:mi:ss') as nowTime from dual;   //日期转化为字符串  
+select to_char(sysdate,'yyyy')  as nowYear   from dual;   //获取时间的年  
+select to_char(sysdate,'mm')    as nowMonth  from dual;   //获取时间的月  
+select to_date('2004-05-07 13:23:44','yyyy-mm-dd hh24:mi:ss') from dual //字符串和时间转换
+select trunc(sysdate) from dual 返回今天的日期
+select count(*) from mobilefrends where cdate>=trunc(sysdate) and cdate<trunc(sysdate)+1;
+select to_char(sysdate,'yyyy-MM-dd') from dual
+
+【case用法】：
+SELECT col1, col2,
+       CASE
+          WHEN col3 > 1 AND col3 <2
+             THEN '1'
+          WHEN col3 > 2 AND col3 <3
+             THEN '2'
+          WHEN col3 > 3 AND col3 <4
+             THEN '3'
+          ELSE '4'
+       END mylevel
+FROM table1
+case kqjg when '0' then '未到' when '1' then '正常' when '2' then '迟到' else null end as kqjg
+
+【DECODE用法】：
+DECODE(条件,值1,翻译值1,值2,翻译值2,...值n,翻译值n,缺省值)
+DECODE(value, if1, then1, if2,then2, if3,then3, . . . else )
+
+【NVL用法】
+NVL( string1, replace_with) 
+　　功能：如果string1为NULL，则NVL函数返回replace_with的值，否则返回string1的值。
+
+算术操作符的任何一个操作数为NULL值，结果均为提个NULL值,这个规则也适合很多函数   null+1 ==> null  nvl(xx,0)+1 ==> 1 
+
+【group by 用法】
+gorup by :select后面的调节要与group by后面的条件对应，要函数统计的字段除外
+oracle中sum可以对表进行求和，用了group by后，就是对分组求和，group by 的字段要select对应
+(如：select area_id,area_name,COUNT(distinct user_name) as zrs，COUNT(user_name) as zrc from VIEW_QSKQ_JG group by area_id,area_name)
+
+group by 重点理解：要查询什么字段group by 要查询的字段，group by 的字段都是多个的，可以加where 条件限制死，如group by date,period,teacher_id 
+
+insert into TA(T1,T2,T3) select 1,'aaa',TB3 from TB where...
+select返回的就是这个常量值.
+//例子：SritZdykqJg_insertClassRw
+
+oracle中NUMBER(1)类型可以用 0或者用'0'查，用0比较好	
+char(1)类型可以用 0或者用'0'查,用'0'比较好
+char(32)就只能用字符串	的，数字太长不行
+char和varchar2等价，只是char长度固定，varchar2可变
+oracle中is_deleted = 0  is_deleted = ‘0’都可以，如果是number(1)最好用0，char(1)最好用'0'
+
+【常用函数】
+lower(),
+upper(),
+concat(c1,c2)， c1,c2均为字符串，函数将c2连接到c1的后面，如果c1为null,将返回c2.如果c2为null,则返回c1，如果c1、c2都为null，则返回null
+initcap,函数将每个单词的第一个字母大写其它字母小写返回  select initcap('veni,vedi,vici') Ceasar from dual	
+
+oracle例子
+select to_char(sysdate,'yyyy-MM-dd') from dual;
+select * from srit_qingjia_jl 
+select id||to_char(jssj,'yyyy-MM-dd hh24:mi:ss') from srit_qingjia_jl
+select id||'123' from srit_qingjia_jl
+select nvl(jsjg,1) from srit_qingjia_jl
+select * from srit_qingjia_jl order by kasj desc,jssj
+select * from srit_qingjia_jl where kasj is null
+select ROUND(45.923，2) from srit_qingjia_jl
+select trunc(45.9999,2) from srit_qingjia_jl
+select mod(1202,3) from srit_qingjia_jl
+select to_char(sysdate,'yyyy-MM-dd hh24:mi') from dual
+select last_day(sysdate) from dual   2016/4/30 10:10:37
+select * from base_student where class_id in (select id from base_class bc where bc.id in('8A9EAE7047B592470147C2B64E6B0044'))
+select max(is_zxs) from base_student   //组函数：AVG，COUNT，MAX，MIN，SUMS
+因为子查询可以用在WHERE子句，HAING子句，SELECT或DELETE语句中的FROM 子句。所以组函数可以出现having语句中
+select dept_id,avg(salary) from s_emp group by dept_id having avg(salary) > (select avg(salary) from s_emp wher dep_id = '11')
+---------------------------------------------------------------------------------------------------------------
+mysql技术
+
+truncate table 表名                   清空表
+delete from 表名
+drop table 表名                      删除表
+
+set foreign_key_checks = 0; 
+truncate table 表名（drop table 表名）;             删除外键约束在清空表 （或删表）
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+spring技术：
+
+
+
+@resource的匹配过程
+        1、当启动spring容器的时候，spring容器加载了配置文件
+        2、在spring配置文件中，只要遇到bean的配置，就会为该bean创建对象
+        3、在纳入spring容器的范围内查找所有的bean,看哪些bean的属性或者方法上加有@Resource
+        4、找到@Resource注解以后，判断该注解name的属性是否为""(name没有写)
+              如果没有写name属性，则会让属性的名称的值和spring中ID的值做匹配，如果匹配成功则赋值
+                                        如果匹配不成功，则会按照类型进行匹配，如果匹配不成功，则报错
+              如果有name属性，则会按照name属性的值和spring的bean中ID进行匹配，匹配成功，则赋值，不成功则报错
+
+  @Autowired设置在set方法上和字段上原理一样，bean中不用定义<property></property>
+
+ @Resource(name="studentDao") // 通过此注解完成从spring配置文件中查找名称为studentDao的bean来装配字段studentDao，如果spring配置文件中不存在 studentDao名称的bean则转向按照bean类型经行查找
+ public void setStudentDao(IStudentDao studentDao) {
+this.studentDao = studentDao;
+}
+
+ @Autowired//通过此注解完成从spring配置文件中 查找满足studentDao类型的bean
+  //@Qualifier("studentDao")则按照名称经行来查找转配的
+ public void setStudentDao(IStudentDao studentDao) {
+this.studentDao = studentDao;
+}
+
+/*　1.@Resource应用在字段上,则注入规则是:
+a.先使用字段名字匹配bean,查找到bean则注入,如果类型不匹配则此时有异常,注入失败。
+b.如果字段名字没有匹配到Bean则spring会尝试采用字段类型匹配,如果找打bean则注入,如果字段类型是接口则有可能会匹配到多个类型,则会抛出匹配到多个bean的异常， 注入失败。
+2.@Resource应用在setter上(应用到属性),则注入规则是:
+a.先使用属性名字匹配bean,查找到bean则注入,如果类型不匹配则此时有异常,注入失败。
+b.如果属性名字没有匹配到Bean则spring会尝试采用属性参数类型匹配,如果找打bean则注入,如果属性参数类型是接口则有可能会匹配到多个类型,则会抛出匹配到多个bean的异常.注入失败。　
+注意是属性的参数类型,并不是属性的类型,注意区别
+
+
+assert用法 Assert.isTrue(start >= 0, "start should start from 0"); if(name=null||name.equals("")) {throw new illegalArqumentException("参数错误")}，assert就是抛出错误到控制台
+
+<property name="realm" ref="ShiroRealm" />   等价 <property name="realm"><ref bean="ShiroRealm"></property>
+
+spring @Required 依赖检查
+
+@Repository("name")中的对应bean中的id(包括@control,@service),没指定默认是类名首字母小写的值,@Resource(name = "sqlSessionTemplate")也是对应bean中的id
+
+spring注入时：byName和byType都是根据类中的setXX方法来进行注入，byName就是在容器中查找id=“XX”的bean,byType就是根据setXX方法要注入的类型去容器中找，
+constructor和byType类似，只是用构造器注入，不是用setXX方法
+
+bean中的   init-method="init" ：指定初始化方法，在构造器注入和setter注入完毕后执行。	
+
+org.springframework.web.filter.CharacterEncodingFilter用于解决POST方式造成的中文乱码问题
+
+org.springframework.orm.ibatis.SqlMapClientFactoryBean   
+classpath:ibatis/sqlmap-config.xml
+
+@Autowired注解是按类型装配依赖对象，默认情况下它要求依赖对象必须存在，如果允许null值，可以设置它required属性为false。如果我们想使用按名称装配，可以结合@Qualifier注解一起使用。如下：
+ @Autowired  @Qualifier("userDao") private PersonDao  
+ 
+spring中assert的使用：
+Assert.notNull(map);
+Assert.hasText(name,"参数错误");
+Assert.notNull(user.getId(), "user.id is null");  相当于后面的user.getId(）不能为null，为null报错
+
+if(name==null || name.equals("")) {
+	throw new IlleagalArgumentException("参数错误"); 	
+}
+
+要使用@Autowired @Resource诸如此类的注解必须用到<context:component-scan/>	
+<context:component-scan base-package=”XX.XX”/> 
+    该配置项其实也包含了自动注入上述processor的功能，因此当使用 <context:component-scan/> 后，就可以将 <context:annotation-config/> 移除了。
+<context:component-scan/> 扫描到的常用注释
+@Controller 声明Action组件
+@Service    声明Service组件    @Service("myMovieLister") 
+@Repository 声明Dao组件
+@Component   泛指组件, 当不好归类时. 
+@RequestMapping("/menu")  请求映射
+@Resource  用于注入，( j2ee提供的 ) 默认按名称装配，@Resource(name="beanName") 
+@Autowired 用于注入，(srping提供的) 默认按类型装配 
+@Transactional( rollbackFor={Exception.class}) 事务管理
+@ResponseBody
+@Scope("prototype")   设定bean的作用域
+  
+proxy-target-class:
+proxy-target-class属性值决定是基于接口的还是基于类的代理被创建。如果proxy-target-class 属性值被设置为true，那么基于类的代理将起作用（这时需要cglib库）。如果proxy-target-class属值被设置为false或者这个属性被省略，那么标准的JDK 基于接口的代理将起作用。
+
+@Aspect <!--启用AspectJ对Annotation的支持 --><aop:aspectj-autoproxy/>
+
+AutowiredAnnotationBeanPostProcessor 将扫描 Spring 容器中所有 Bean，当发现 Bean 中拥有@Autowired 注释时就找到和其匹配（默认按类型匹配）的 Bean，并注入到对应的地方中去
+
+spring中的applicationContext.xml中的默认bean scope属性石singleton。    lazy-init默认为false,就是不懒加载，容器启动实例化bean
+  
+alias别名
+parse解析
+
+事务的配置：
+ <!-- 配置事务的传播特性 -->
+ <tx:advice id="txAdvice" transaction-manager="transactionManager">
+  <tx:attributes>
+   <tx:method name="get*" propagation="REQUIRED" read-only="true" />
+   <tx:method name="del*" propagation="REQUIRED" />
+   <tx:method name="save*" propagation="REQUIRED" />
+   <tx:method name="update*" propagation="REQUIRED" />
+  </tx:attributes>
+ </tx:advice>
+
+ <!-- 配置事务拦截器拦截哪些类的哪些方法,一般设置成拦截Service -->
+ <aop:config>
+  <aop:pointcut expression="execution(* com.xy.service.*.*(..))"
+   id="allDaoMethod" />
+  <aop:advisor advice-ref="txAdvice" pointcut-ref="allDaoMethod" />
+ </aop:config>
+---------------------------------------------------------------------------------------------------------------
+springMvc技术 
+
+<context:component-scan base-package="com.yihaomen.controller" />
+<mvc:annotation-driven />最好配置这项，如果有静态资源，没有配这一项会出问题
+
+spring中页面的调整暂时先这样理解：localhost:8080/SpringMVC_01/index.html，因为HomeController中添加了@Controller方法可以交给spring容器处理，
+因为springmvc的流程先到dispacthercontrol在跳转到其他页面。以控制器为入口点@RequestMapping("index")等价于@RequestMapping("/index")
+访问的url都是localhost:8080/SpringMVC_01/index.html，因为@RequestMapping("index")意思是指相对路径
+
+
+@RequestMapping 中的 value 和 path 属性（这两个属性作用相同，可以互换，如果仅有这一个属性，则可以省略，下面两个例子均采用省略的方式）
+@Controller
+public class UserController {
+
+	@RequestMapping("/login")
+	public String login() {
+		return "success";
+	}
+}
+ @RequestMapping 注解在 login 方法上，而UserController上不添加 @RequestMapping 注解，这时的请求 URL 是相对于 Web 根目录
+ http://localhost/SpringMVC/login   <a href="login">User Login</a>    index.jsp页面在根目录下
+
+@Controller
+@RequestMapping("/user")
+public class UserController {
+
+	@RequestMapping("/login")
+	public String login() {
+		return "success";
+	}
+}
+
+将 @RequestMapping 注解在 UserController 类上，这时类的注解是相对于 Web 根目录，而方法上的是相对于类上的路径
+ http://localhost/SpringMVC/user/login <a href="user/login">User Login</a> index.jsp页面在根目录下
+
+@RequestMapping(value="/login",method=RequestMethod.GET) 来指定 login()方法 仅处理通过 GET 方式发来的请求
+================
+通过 @RequestMapping(value="/login",method=RequestMethod.POST) 来指定 login()方法 仅处理通过 POST 方式发来的请求
+<form action="user/login" method="post">
+    <input type="submit" value="使用Post发送请求"/>
+</form>
+======================
+
+@Controller
+@RequestMapping(path = "/user")
+public class UserController {
+        
+        // 该方法将接收 /user/login 发来的请求，且请求参数必须为 username=kolbe&password=123456
+	@RequestMapping(path = "/login", params={"username=kolbe","password=123456"})
+	public String login() {
+		return "success";
+	}
+}
+<a href="user/login?username=kolbe&password=123456">User Login</a>
+
+--------------------------------------------------------------------------------------------------------------------------
+hiberbate技术
+
+<!-- users属性，本类与User的一对多 -->
+格式：？属性，本类与？的？
+?1	属性名
+?2	关联对类型
+?3	关系
+
+	多对一：
+		<many-to-one name="" class="" column=""></many-to-one>
+	一对多（Set）：
+		<set name="">
+			<key column=""></key>
+			<one-to-many class=""/>
+		</set>
+	多对多（Set）：
+		<set name="" table="">
+			<key column=""></key>
+			<many-to-many class="" column=""></many-to-many>
+		</set>
+----------------------------------------------------------------------------------------------------------------------------
+css技术
+
+display:none的元素还是存在于dom树中
+
+remove直接从dom树中删除，hide()是存在的
+
+text-aligin:设置div中的字体对齐方式
+
+background-color:#ecf0f5  <==> background:#ecf0f5
+
+margin是外边距 padding是内部的
+
+div(width:510px;height:280px)全屏居中：position:fixed;left:50%;top:50%;margin-left:-255px;margin-top:-140px; 如果有边框要加上边框除以2
+可以参考技师项目教师管理的新增页面弹出来的是居中的	
+
+<p>haha</p>和<p> </p>高度不一样
+
+#attend_query .q_right li h2 img {} 子类样式参考考情统计文件
+
+float浮动一定要指定元素的width，不然没有意义，因为会填充一行（所以就会换行，不会两个div在同一行）float有点类似于absolute
+
+一个元素定义了绝对定位又定义了float,absolute优先
+
+所有元素默认position默认值static，绝对定位以它最近傅元素的relative来定位，不影响脱离以后其他元素位置，这些元素可以进行位移操作，用relative(总结：absolute脱离文档，以父类来定位，其他元素位置不变，可以各自定位)不是根据父absolute来定位
+
+position:relative
+元素设置了relative时，是相对于元素本身位置进行定位；
+元素设置了relative后，可以通过“T-R-B-L”改变元素当前所在的位置，但元素移位后，同样点有当初的物理空间位；
+元素设置了relative后，如果没有进行任何的“T-R-B-L”设置，元素不会进行任何位置改变。
+
+元素相对定位“relative”是相对于元素自身定位，而在第三步中大家知道元素绝对定位“absolute”是相对于html。但这种说法只有满足这样的条件才是正常的：“绝对定位元素的任何祖先元素没有进行任何的“relative”或者“absolute”设置，那么绝对定位的元素的参考物就是html”，这样一来，“relative”和“absolute”的结合就能起到很大的作用。
+
+positoon:static设置top,left,bottom,right没有作用，t,l,b,r对positioon：relative和position：absolute有效
+
+position中绝对定位和相对定位的整合原理： 
+如果一个元素绝对定位后，其参照物是以离自身最近元素是否设置了相对定位，如果有设置将以离自己最近元素定位，如果没有将往其祖先元素寻找相对定位元素，一直找到html为止。
+
+css样式优先级：内联样式表（标签内部）> 嵌入样式表（当前文件中）> 外部样式表（外部文件中）。
+
+http://blog.jobbole.com/49320/   css十招技术分析position技术
+http://www.w3cplus.com/css/clear-float   清除浮动的文章
+
+字体的默认行高是18px
+
+1em = 16px
+
+css id选择器
+
+			#example {
+				float: right;
+			}
+
+			#example p {
+				margin: 0 0.25em;
+				padding: 0.25em 0;                         id为example所有子元素p，包括子孙元素p设定样式
+			}
+
+
+
+<font size=></font> <font style="font-size=12px"></font>   <font style="color: #9C9999;font-weight:bold;font-size:12px">2016-01-23</font>
+
+div有浮动float：left,div高度就没有了，正常div独占一行，如果前面有float的div,正常div就会堆叠上去
+
+浮动的div是层层堆叠的，也有div的基本框架，padding,margin,border...(参考请假审核底部三个图片和上面的关系)
+
+padding内部衍生，margin在外部
+
+样式不能用看看有没有忘了";"
+
+font style="font-weight:bold;font-size:12px;" color="red">      <font class="tbCntFont" style="color:red">   前面一种有可能出问题 
+
+div也是一块块下来的 参考走班考勤导航样式
+
+
+高度X宽度这里的数值是不包括margin的
+
+position:fixed;  z-index:  //锁住在频幕中间，就是随着滚动条一起滚动
+position:absolute;  z-index: //设置div漂浮层
+
+<div style="background-color:#8BCBDE;height:80px;padding-left:5%;height:36px;padding-top:53px;position: absolute;  z-index: 555;">
+	<div style="float:left;"><font class="tbTitFnt2" style="font-size:14px">请选择状态修改:</font></div>
+	<div style="float:right;padding-right:1%"><img src="<%=request.getContextPath()%>/mobilefile/css/images/x.png" style="height:25px;"/></div>
+</div>
+
+加个overflow:hidden可以对溢出部分剪切掉。如果不想这样的话，可以使用
+overflow:auto;这样溢出的话，会出现滚动条。
+overflow有两个变形
+overflow-x搜索和
+overflow-y可以分别控制水平和垂直方向的溢出
+
+css中的width就是蓝色部分，绿色是padding,红色是margin,width就单单指蓝色部分  （调节student_qjsqxq.jsp中学号div就能明白，加个padding或margin就会换行）
+overflow:hidden;border: 2px solid #E0DADA;border-radius:8px;
+
+正确的使用DIV布局属性之position属性
+Position的英文原意是指位置、职位、状态。也有安置的意思。在CSS布局中，Position发挥着非常重要的作用，很多容器的定位是用Position来完成。
+Position属性有四个可选值，它们分别是：static、absolute、fixed、relative。我们下面来共同学习它们的不同的用法，在学习中我们应该去思考在什么布局情况下，应该使用它们其中的哪一种。
+更多关于Position属性的资料请参考这里。
+◆DIV布局属性之position:static　无定位
+该属性值是所有元素定位的默认情况，在一般情况下，我们不需要特别的去声明它，但有时候遇到继承的情况，我们不愿意见到元素所继承的属性影响本身，从而可以用position:static取消继承，即还原元素定位的默认值。
+如：#nav{position:static;}
+◆DIV布局属性之position:absolute　绝对定位
+使用position:absolute，能够很准确的将元素移动到你想要的位置，让我将nav移动到页面的右上角。我们可以这样写：nav{position:absolute;top:0;right:0;width:200px;}
+使用绝对定位的nav层前面的或者后面的层会认为这个层并不存在，也就是在z方向上，它是相对独立出来的，丝毫不影响到其它z方向的层。所以position:absolute用于将一个元素放到固定的位置很好用，但是如果需要层相对于附近的层来确定位置就无能为力了。只能用下面讨论到的相对定位了。
+这里有个WinIE的bug需要提到，就是如果为绝对定位的元素定义一个相对的宽度，那么在IE下它的宽度取决于父元素的宽度而不是整个页面的宽度。
+◆DIV布局属性之position:fixed　相对于窗口的固定定位
+这个定位属性值是什么意思呢？元素的定位方式同absolute类似，但它的包含块是视区本身。在屏幕媒体如WEB浏览器中，元素在文档滚动时不会在浏览器视察中移动。例如，它允许框架样式布局。在页式媒体如打印输出中，一个固定元素会出现于第一页的相同位置。这一点可用于生成流动标题或脚注。我们也见过相似的效果，但大都数效果不是通过CSS来实现了，而是应用了JS脚本。
+请特别注意，IE6不支持CSS中的position:fixed属性。真的非常遗憾，要不然我们就可以试试这种酷酷的效果了。
+◆DIV布局属性之position:relative　相对定位
+所谓相对定位到底是什么意思呢，是基于哪里的相对呢？我们需要明确一个概念，相对定位是相对于元素默认的位置的定位。既然是相对的，我们就需要设置不同的值来声明定位在哪里，top、bottom、left、right四个数值配合，来明确元素的位置。如果要让nav层向下移动20px,左移40px:
+我们可以这样写：#nav{position:relative;top:50px;left:50px;}
+但您需要注意下面的情况，相对定位紧随他的层woaicss是不会出现在nav的下方，而是和nav发生一定的重叠
+
+
+position:absolubte;已经脱离文档流；float是没作用的！，脱离文档流是相对于父级来定位的，所以可以使用先div相对定位，在脱离文档流，这是脱离的位置在相对后的位置
+参考mobile的下拉
+--------------------------------------------------------------------------------------------------------------
+jsp技术
+JSP共有6中动作：
+jsp:include:在页面被请求的时候引入一个文件。
+	例子：<jsp:include page="head.jsp"/>
+	<==>%@include file="head.jsp"%>	
+
+jsp:userBean:寻找或者实例化一个JavaBean。
+	例子：<jsp:userBean id="user" scope="page" class="com.jsp.ch3.TestBean"/>
+
+jsp:setProperty:设置JavaBean的属性。
+
+jsp:getProperty:输出某个人JavaBean的属性。
+
+jsp:forward:把请求转到一个新的页面。
+	例子：<jsp:forward page = "/WEB-INF/jsp/test/test.jsp" />
+jsp:plugin:根据浏览器类型为Java插件生成OBJECT或EMBED标记，很少用
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+struts技术
+
+<s:bean name="test.Test1" id="mybean"><s:param name="str" value="'abc'"></s:param></s:bean>
+<s:property value="#mybean.str"/>
+<s:property value="#mybean.hello()"/>
+<s:property value="#mybean.hello('tom')"/>
+
+<s:iterator value="#request.page.data" var="item" status="i"></s:iterator> var和status可以取任意名称  <s:property value="name"/>  <==> <s:propety value="#item.name"/>
+#i.index获取索引值0开始
+
+<s:if test=""></s:if>  test中判断字符串是否相等可以用==符号，如 test='name=="aaa"' test中还是java代码，==可以用来比较字符串是否相等也可以用equals
+
+<s:if test='teacherName in {"竺宁彪","xiekdddan"}'>in</s:if>  (not in)
+<s:if test="#request.req not in #list"></s:if>	（<s:set name="list" value="{'eeee','ssss','ccc'}"></s:set>）
+
+
+遍历map集合：<s:set var="mymap" value="#{'1':'laowang','2':'老王','3':'猩猩'}"></s:set>  遍历map<s:iterator value="mymap"/>  取key和value<s:property value="key"/><s:proprty value="value"/>(遍历map就是遍历map中的key,而遍历map组成的list,相当于遍历对象list,只是属性字段变为map中的key)
+
+遍历list集合：  <s:set name="mytest" value="{'xieyi','xiekan','zhouhao'}"></s:set> 
+<s:iterator value="mytest" var="item" status="i"><s:property value="#item"/></s:iterator>
+
+过滤：<s:iterator value="books.{?#this.price>35}"> 取到价格大于35的书籍 （？取所有，^ 取第一个，$取最后一个）
+
+<s:iterator value="list">方法循环list变量(<s:iterator>一般循环两种形式的数据[{a=2,b=3},{a=2,b=4}],[对象，对象])时list不需要转为json。
+例如： [{a=2,b=3},{a=2,b=4}]里面是map对象 ，<s:property>取键值，对象取属性值 。
+
+<s:iterator value="list_data" var="item" status="i"></s:iterator>   获取序列号<s:property value="#i.index+1"/>
+
+<s:property value="%{default_role}"/>  等价于 <s:property value="default_role"/>        %{}是ognl格式可以省略,%{}可以有两种%{#user},%{user},一个上下文一个是值栈
+另外一种不常用方法<s:property value="#attr.default_role"/> 
+
+var a = '<s:property value="AREA_NAME"/>';或者 var a = "<s:property value='AREA_NAME'/>";两种写法
+
+<s:property value="mytest()"/> 等价于 <s:property value="%{mytest()}"/> 调用action中的方法所返回的值（list,string,map等数据类型）
+
+var list =  "<s:property value='list'/>"; 没有语法错误转为了字符串
+var list = <s:property value='list'>;会有语法错误,因为js不能有java格式数据 var list = [srit.jw.domain.Baseteacher@7cc625e1, srit.jw.domain.Baseteacher@34e116c6];
+var a = <s:property value='xxx'/>;    var a = 1;单一的值是没有语法错误的
+
+action中非全局变量可以手动放到栈顶
+ActionContext ctx = ActionContext.getContext()；ValueStack vs = ctx.getValueStack();vs.push(object);	
+
+$(result).each(function(i){}  each循环是list对象要转为json，因为js只操作json
+
+struts标签获取服务器端数据(相当于<%=>):
+获取集合长度用size()：       <s:property value='#request.list.size()'/>
+获取数组长度length：         <s:if test = "imgUrl.split(',').length>4"></s:if> java中的数组也是用数组名.length,字符串用str.length()
+遍历imgurl分割后的数组集合： <s:iterator value="imgUrl.split(',')" status="st" var="as"> </s:iterator>  
+只遍历前面3个                <s:subset source="imgUrl.split(',')" start="0" count="3"> <s:iterator></s:interator><s:subset>
+
+ActionContext.getContext().put("greeting", "sss");  页面中${requestScope.greeting} 或者 <%=request.getAttribute("greeting")%> 
+==》#request.greeting,是从reqeust中取得，最好用正规的编码  #greeting取
+
+例子：
+
+（1）
+java端（要理解java是值得概念,"xieyisss"的值是xieyisss,其实aaa就是等于xieyisss,struts标签取服务端的变量，取出来是服务端的java变量，取出来是字符串或数字的还可以用
+其他一些map对象如listsssaaa = '{w=333ss, q=123s}'是用不了的，ognl单独写没有意义要配合struts标签，var a = '#session.xiekan';没意义就是字符串，var a = '<s;property value="#session.xiekan">'
+）：
+ActionContext ctx = ActionContext.getContext();
+String[] sss = {"aa","bb","dd"};
+String aaa = "xieyisss";
+Map map = new HashMap();
+map.put("q", "123s");
+map.put("w", "333ss");
+List list = new ArrayList();
+list.add("xieyi");
+list.add("xiekan");
+list.add(2);
+
+ctx.getSession().put("xiei", "reinforce");
+ctx.getSession().put("xiekan", sss);
+ctx.getSession().put("zhouhao", map);
+ctx.getSession().put("zhanlei", list);
+
+jsp端：（对象中的属性可以用“user.name”也可以用user["name"],map对象中key也可以用["key"]和.key）
+（<s:property value=""/>可以理解为一个值，只是嵌入值不区分字符串或数字，有可能嵌入[{a=3,b=4}]）
+
+var list = '<s:property value="#session.xiei"/>';
+var listsss = '<s:property value="#session.xiekan"/>';数组有点另类
+var listsssaaa = '<s:property value="#session.zhouhao"/>';
+var listsssaaabbbbb = '<s:property value="#session.zhanlei"/>';
+
+var list = 'reinforce';
+var listsss = 'aa, bb, dd';
+var listsssaaa = '{w=333ss, q=123s}';
+var listsssaaabbbbb = '[xieyi, xiekan, 2]';
+
+
+
+（2）
+调用ActionContext的put(key,value)放入的数据，需要使用#访问。 (ActionContext.getContext().put("test3", "zhouhao");<s:property value="#test3"/>)
+经过测试<s:property value="test3"/>也可以获得值，但是要规范还是用前一种
+
+传值测试：		
+
+ActionContext.getContext().getSession().put("test1", "xieyi");
+
+Map request = (Map)ActionContext.getContext().get("request");
+request.put("test2", "xiekan");
+
+ActionContext.getContext().put("test3", "zhouhao");
+
+HttpServletRequest requests = ServletActionContext.getRequest();
+requests.setAttribute("test4", "zhanlei");
+
+alert('<s:property value="#session.test1"/>');
+alert('<s:property value="#request.test2"/>');
+alert('<s:property value="#test3"/>');
+alert('<s:property value="#request.test4"/>');
+
+var className = '<s:property value="#request.viewXmkqjgList.get(0)['className']"/>';对
+var className = '<s:property value="#request.viewXmkqjgList.get(0)["className"]"/>';错
+
+记得struts2属性是自动绑定到map中的request里的.这个非常重要，就是actionContext.getContext的map中的request，现在只有map和valuestack两种
+
+<global-results>是全局的意思，对应的是拦截器或action,当action自身的result没有对应时
+
+struts.xml中默认namespace=""，namespace="/"和namespace=""不等效,"/"指的是项目的根目录，namespace决定了action的访问路径，默认为"",可以接受所有路径的action
+amespace可以写为/,或者/xxx,或者/xxx/yyy，对应的action访问路径为/index.action,/xxx/index.action，或者/xxx/yyy/index.action
+
+struts.enable.DynamicMethodInvocation = true 动态方法调用，为true时，就可以在struts.xml配置“*”的通配符，来调用action里的方法
+
+struts.i18n.encoding确实用于了HttpServletRequest的setCharacterEncoding()方法。 request中setCharacterEncoding可以理解对request中的数据设置编码，防止取得时候
+
+ServletActionContext 和 ActionContext有什么区别：遵循的原则是:如果ActionContext能够实现我们的功能,那最好就不要使用ServletActionContext,让我们的Action尽量不要直接去访问Servlet的相关对象.
+
+action中的参数封装：封装对象中的属性值，action声明page,jsp中用page.currentPage，action调用过程中自动封装
+action中的set方法用于参数封装，get方法用于在jsp页面上取得参数
+
+struts2中几种页面转向的方式：action中转，intercept中转（页面一般写在strut.xml中的<global-results>标签中）    
+--------------------------------------
+struts2请求原理：
+
+<constant name="struts.action.extension" value="action,do" /> 表示以action和do结尾的请求会被struts2拦截，才可以有下面的过程，经过拦截器在到action,被struts2拦截要先经过默认的拦截器，其实默认拦截器必须经过有18个默认拦截器，不然struts没有功能，也可以自定义拦截器包括在默认拦截器中（总之可以这样理解:struts拦截后，经过拦截器，在找到指定的action,调用action,转到页面，在这个过程中有可能在拦截器中转向页面了，比如调用login.action就没有action,直接在拦截器中返回struts）
+
+地址栏中的请求肯定先经过web.xml的，比如有个action请求，被StrutsPrepareAndExecuteFilter过滤一下，过滤过程就是处理这个类中
+init(),doFilter()等方法，doFilter方法中回去读struts.xml配置文件，哪些需要被struts拦截，再经过拦截器到达action
+
+result默认值  dispatcher(转发)
+
+struts请求的整个过程：因为在web.xml中有StrutsPrepareAndExecuteFilter，且为/*认为所有请求都要过滤，然后StrutsPrepareAndExecuteFilter会读取配置文件，比如进一步过滤do,action结尾的请求，查找action操作，找到action后就可以执行其中的代码
+
+struts2整个请求过程：
+Struts2的拦截器的实现原理和过滤器的实现差不多，对你真正想执行的 execute()方法进行拦截，然后插入一些自己的逻辑。如果没有拦截器，这些要插入的逻辑就得写在你自己的 Action实现中，而且每个 Action实现都要写这些功能逻辑，这样的实现非常繁琐。而 Struts2的设计者们把这些共有的逻辑独立出来，实现成一个个拦截器，既体现了软件复用的思想，又方便程序员使用。 Struts2中提供了大量的拦截器，多个拦截器可以组成一个拦截器栈，系统为我们配置了一个默认的拦截器栈 defaultStack，具体包括那些拦截器以及他们的顺序可以在 Struts2的开发包的 struts-default.xml中找到。在每次对你的 Action的 execute()方法请求时，系统会生成一个 ActionInvocation对象，这个对象保存了 action和你所配置的所有的拦截器以及一些状态信息。比如你的应用使用的是 defaultStack，系统将会以拦截器栈配置的顺序将每个拦截器包装成一个个 InterceptorMapping(包含拦截器名字和对应的拦截器对象 )组成一个 Iterator保存在 ActionInvocation中。在执行 ActionInvocation的 invoke()方法时会对这个 Iterator进行迭代，每次取出一个 InterceptorMapping，然后执行对应 Interceptor的 intercept(ActionInVocation inv)方法，而 intercept(ActionInInvocation inv)方法又包含当前的 ActionInInvcation对象作为参数，而在每个拦截器中又会调用 inv的 invoke()方法，这样就会进入下一个拦截器执行了，这样直到最后一个拦截器执行完，然后执行 Action的 execute()方法 (假设你没有配置访问方法，默认执行 Action的 execute()方法 )。在执行完 execute()方法取得了 result后又以相反的顺序走出拦截器栈，这时可以做些清理工作。最后系统得到了一个 result，然后根据 result的类型做进一步操作。
+
+地址栏中访问http://localhost:8080/SmartCampus/test1.jsp，test1.jsp可以被访问（该页面在webContext根目录下）,因此该请求走传统的访问jsp,(如果某jsp不存在，
+如访问http://localhost:8080/SmartCampus/sss.jsp,根目录下不存在该页面，报传统的404错误，如果web.xml中定义了错误转向页面，转到该页面)如果用do,action访问因为会被
+struts拦截到进行struts页面访问处理（struts要过滤两次，fileter和struts.action.extension=action,do）
+
+因为tomcat下的web.xml中是全局作用域，定义了拦截jsp那么就对http://localhost:8080/SmartCampus/test1.jsp 进行jsp处理，对http://localhost:8080/SmartCampus/test1.do(action)
+因为全局作用域没有拦截，而局部作用域（项目下web.xml）有对所有请求进行拦截（strutsprepateandexecutefilter）,并进一步只拦截（do,action,假如strut.xml中后缀设置了do,actioln）,因此对它进行struts处理
+http://localhost:8080/SmartCampus/test1.do
+
+其实因为strut2是利用过滤器来实现的，过滤器是一层层来调用的，当（strutsprepateandexecutefilter）遇到jsp直接过，遇到action就处理
+
+------------------------------------------------------------------------------------------------------------------
+convention技术
+ 用了Convention插件来实现所谓的0配置， 
+1. struts.convention.package.locators.basePackage=com.ZTest.web.action 
+这个属性用于约定Action 类的根包（这个包是Java 类的包，而不是Struts.xml中配置的<package>节点） 
+例如： 
+在一个项目中有这样一系列的Java 包，那么当指定convention的这个属性，Struts 框架就会在你访问特定的URL时会自动的找到所要的请求的实现类。 
+当你在浏览器中输入： http://localhost:8080/项目名/helloWorld.action ，Struts会自动的找到并执行com.ZTest.web.action.HelloWorldAction.java类。 
+当你在浏览器中输入： http://localhost:8080/项目名/test/aaa.action ，Struts会自动的找到并执行com.ZTest.web.action.test.aaaAction.java类。 
+
+对应理解：
+convention做法是根据helloWorld.action找HelloWorldAction
+
+通常做法：
+namespace="/"     下的  <action name="helloWorld" class="com.ZTest.web.action.CCCHelloWorldAction">
+namespace="/test" 下的  <action name="aaa" class="com.ZTest.web.action.test.CCCAaaAction">
+
+2. struts.convention.result.path=/WEB-INF/ruiri 
+这个属性用于约定Action类执行完毕以后返回资源的结果路径，###必须以 "/" 开头, 
+例如： 
+当你在浏览器中输入： http://localhost:8080/HelloWorld.action ，Struts会自动的找到并执行com.ZTest.web.action.HelloWorldAction.java类，并放回到WEB-INF/ruiri/HelloWorld.jsp。 
+当你在浏览器中输入： http://localhost:8080/test/aaa.action ，Struts会自动的找到并执行com.ZTest.web.action.test.AaaAction.java类, ，并放回到WEB-INF/ruiri/test/HelloWorld.jsp 。 
+
+3. struts.convention.action.name.lowercase=false 
+###是否将Action类转换成小写 
+当一个类的类名是多个单词组合起来的时候，例如 HelloWolrdAction，如果指定了这个属性，则访问的地址必须是：  HelloWorld.action ,如果不是指定这个属性则是：  helloworld.action 
+
+4. struts.convention.action.name.separator= 
+这个属性是约定当一个Java 类有多个单词组合成的时候，映射的URL地址的时候访问的格式的分隔符。 
+如果不指定这个属性，Struts默认的分隔符是 “-”，例如 HelloWorldAction 则访问的URL 是Hello-World.action 
+如果指定这个属性是上面的格式，则是没有分隔符，会按照Java 类名直接映射，例如 HelloWorldAction 则访问的URL 是HelloWorld.action 
+
+5 struts.convention.default.parent.package=default 
+这个属性指定的是Strtus.xml中配置的 <package>节点的父节点。（有什么用？可能就是用于定义全局的Result 吧，这个本人也没深入的研究过） 
+
+6 struts.convention.package.locators=action  
+确定搜索包的路径。只要是结尾为action的包都要搜索。 
+详细讲解一下这个属性，因为我刚开始的时候被这个属性搞晕了，希望我的解释能帮助和我有过同样疑问的友人。 
+
+例如：我们有这样一些类： 
+com.ZTest.web.action.AAAAAction 
+com.Ztest.web.action.BBBBAction 
+com.Ztest.web.action.test.CCCCAction 
+com.Ztest.web.action.test.DDDDAction 
+com.Ztest.web.action.test.first.EEEEAction 
+com.Ztest.web.action.test.first.FFFFAction 
+
+
+如果，我设置这个属性的值为 action 那么 我们访问这几个类得URL就是 
+http://localhost:8080/ZTest/AAAA.action 
+http://localhost:8080/ZTest/BBBB.action 
+http://localhost:8080/ZTest/test/CCCC.action 
+http://localhost:8080/ZTest/test/DDDD.action 
+http://localhost:8080/ZTest/test/first/EEEE.action 
+http://localhost:8080/ZTest/test/first/FFFF.action 
+
+而每个URL对应的资源文件必须是下面的格式：（按照本文中的result.path配置的结果） 
+/WEB-INF/ruiri/AAAA.jsp 
+/WEB-INF/ruiri/BBBB.jsp 
+/WEB-INF/ruiri/test/CCCC.jsp 
+/WEB-INF/ruiri/test/DDDD.jsp 
+/WEB-INF/ruiri/test/first/EEEE.jsp 
+/WEB-INF/ruiri/test/first/FFFF.jsp 
+也就是说： 
+
+struts.convention.package.locators=action 就是相当于下面的解释 
+  类路径                                                       命名空间（struts.xml中配置的<package>节点） 
+com.ZTest.web.action.AAAAAction             ->    / 
+com.ZTest.web.action.test.CCCCAction        ->    /test 
+com.ZTest.web.action.test.first.EEEEAction ->    /test/first 
+
+
+当然对应的资源的文件路径就是: 
+/WEB-INF/ruiri/AAAA.jsp 
+/WEB-INF/ruiri/test/CCCC.jsp 
+/WEB-INF/ruiri/test/first/EEEE.jsp 
+
+convention配置总结：
+action类名	execute()方法返回值	jsp文件名
+HelloWorld.java	SUCCESS	hello-world-success.jsp
+HelloWorld.java	ERROR	hello-world-error.jsp
+Hello.java	SUCCESS	hello-success.jsp
+Hello.java	ERROR	hello-error.jsp
+HelloAction.java	SUCCESS	hello-success.jsp
+HelloAction.java	ERROR	hello-error.jsp
+
+区别： 
+struts.convention.package.locators=action  
+确定搜索包的路径。只要是结尾为action的包都要搜索。 
+struts.convention.package.locators.disable=false 
+struts.convention.package.locators.basePackage=com.xxx.web.action 
+basePackage按照默认不用配置，如果配置，只会找以此配置开头的包。 
+locators及locators.basePackage都是一组以逗号分割的字符串
+
+
+<s:http auto-config="true" access-decision-manager-ref="accessDecisionManager">
+	    <!-- <sec:intercept-url pattern="/admin/admin!login.xhtml" filters="none" /> -->
+		<s:form-login login-page="/login.action" default-target-url="/dolphin/index!index.action" authentication-failure-url="/login.action?error=true" always-use-default-target="true"  />
+	<s:logout logout-success-url="/login.action?error=true" />
+	<s:remember-me key="e37f4b31-0c45-11dd-bd0b-0800200c9a66" />
+</s:http>
+
+这段代码的意思是先经过spring security,在经过struts,
+经过spring security时，配置了form-login表示在登入操作的时候要经过这个过滤器，退出也一样
+其他操作不过滤，所以在没登入的时候不会调用userdetailservice类，登入时调用，其实就是这个过滤器在调用
+登入操作就是认证过程
+
+struts.xml（struts-plugin.xml）中父包和子包的关系，子包继承父包，但是父包继承convention-default,struts-plugin.xml文件中有convention-default包继承struts-default包（struts-default.xml），struts-default是核心包里面有拦截器，struts.xml不认结合了struts-plugin.xml中的变量，在struts.xml直接可以覆盖
+---------------------------------------------------------------
+部署技术
+tomcat技术
+tomcat中有缓存或者address in use 就是开了两个tomcat,右击任务管理器看服务中有没有开了个tomcat，有的话杀掉一个进程，关闭黑屏的tomcat,因此两个tomcat都因该关闭了，还有
+有问题的话就是右击任务管理器查看用户的选项卡有没有在使用的用户开了个tomcat,tomcat启动时有严重:表示存在问题，警告表示没有问题
+右击任务管理器选择用户连接后去关闭
+
+myeclipse中出现replay前面还有感叹号，右击任务管理器杀javaw.exe进程
+
+myeclipse界面选中tomcat 右键选择Debug Configuration,左侧目录选中服务器右键可以删除
+新建还是要打开tomcat---create launch configuration
+
+tomcat怎么自动部署:
+正常启动的情况下，如果只是修改了JSP文件或者 html,js等静态文件，是不需要重启也不需要重新部署的； 当你修改了Java类，是需要重新部署的， 当然重新启动服务器就包含了重新部署的过程，所以没有必要两个都做，做一个就可以了。
+你也可以使用tomcat的debug模式，此时改动了java类，也会立刻生效，不需要重新部署。
+
+Redeploy 
+myeclipse会自动发布，也就是说，用redeploy的情况几乎没有。但是myeclipse不太稳定，有的时候，不能自动发布，必须要redeploy。所以当你重启tomcat后还是得不到你的预期结果时候，考虑下redeploy。
+
+-----------------------
+问题集：
+factory-bean  factory-method用法
+====
+<bean id="itemf" class="cn.itcareers.m03.ItemFactory" /> 是个普通的Bean；
+<bean id="item" factory-bean="itemf" factory-method="getItem" />是工厂Bean。
+工厂Bean返回的不是一个实例，而是由工厂getItem方法返回的对象。
+====
+
+vpn问题：
+====
+Error creating bean with name '_filterChainProxy': Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '_filterChainList': Cannot create inner bean '(inner bean)' of type [org.springframework.security.config.OrderedFilterBeanDefinitionDecorator$OrderedFilterDecorator] while setting bean property 'filters' with key [10]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name '(inner bean)#2': Cannot resolve reference to bean 'filterSecurityInterceptor' while setting constructor argument; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'filterSecurityInterceptor' defined in file [F:\Workspaces\MyEclipse 8.5\.metadata\.me_tcat\webapps\SmartCampus\WEB-INF\classes\spring\applicationContext-security.xml]: Cannot resolve reference to bean 'databaseDefinitionSource' while setting bean property 'objectDefinitionSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'databaseDefinitionSource': FactoryBean threw exception on object creation; nested exception is org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction; nested exception is org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Io 异常: The Network Adapter could not establish the connection)
+====
+
+html转义的运用
+====
+
+var strt = "var bt2_array_<s:property value="#i.index"/> =[['未到人数',Number(<s:property value='WDRS'/>)],['迟到人数',Number(<s:property value='CDRS'/>)],['已到人数',Number(<s:property value='DQRS'/>)]]";
+
+var strt = "var bt2_array_"+<s:property value="#i.index"/>+"=[['未到人数',Number(<s:property value='WDRS'/>)],['迟到人数',Number(<s:property value='CDRS'/>)],['已到人数',Number(<s:property value='DQRS'/>)]]";
+
+var strt = "var bt2_array_<s:property value='#i.index'/> = [['未到人数',Number(<s:property value='WDRS'/>)],['迟到人数',Number(<s:property value='CDRS'/>)],['已到人数',Number(<s:property value='DQRS'/>)]]";
+
+var bt2_array_<s:property value="#i.index"/> = [["未到人数",Number(<s:property value="WDRS"/>)],["迟到人数",Number(<s:property value="CDRS"/>)],["已到人数",Number(<s:property value="DQRS"/>)]]  这个好外面需要时可以加''，如用eval
+====
+
+action访问action的全路径
+====
+参考request总结
+====
+
+oa解决页面不是在顶部打开问题
+====
+if(window.parent != window) {
+	window.parent.loaction.reload(true);	
+}
+====
+
+kqrw_list中的test="#request.default_role",为什么要加#requests,可以直接用test="default_role",因为变量在action中，可以直接去栈顶对象（action对象）的属性
+====
+都可以用，最好不要用前面一个 因为<s:debug/>调试后requet中没有值
+====
+
+Sritqiingjiajl.xml中_insert中id是怎么生成的   可以XsglAction中的editQj方法
+====
+srit_qingjia_jl表下面有Trigger中会插入id的
+====	
+
+保存时总是building workspace，反应很慢 
+====
+1.window-Perferences-MyEclipse-Validation 将Manual全部勾掉，Build只留Classpath Dependency Validator，其它全部勾掉。
+2.Project-Properties-Builders 勾掉JavaScript Validator和Validation（这个是针对项目的，点击某个项目或者项目中某个类后才会出现Properties选项）。
+====
+
+PrintWriter out.println() 直接打印到前台？
+====
+servlet中的out.为rite(),它是打印到浏览器的页面中的，ajax可以去读（jsp和ajax的打印要分开理解）
+前台获取后台数据调用ajax,在action中查到数据后怎么传到前台用直接打印
+====
+多个过滤器是怎么调用的
+====
+tomacat启动是执行 init()方法，在销毁过滤器是调用destory(),  
+  <filter>标签中可以设置参数
+<init-param>
+   <description>给参数和值设置名称和编码类型</description>
+   <param-name>encode</param-name>
+   <param-value>GBK</param-value>
+  </init-param>
+====
+
+快速反应List<Map<String, Object>>  [{},{}]结构
+====
+解决
+====
+
+action为什么默认执行execute()方法
+====
+没有自定义方法，系统默认执行该方法
+====
+
+修改密码和bottom.jsp跳转问题
+====
+struts convemtion特性决定，如果没有action也会去找resutl
+====
+
+去测试一下没有convention时，
+测试没有con是是否调用execute方法
+====
+也是调用execute()方法
+====
+
+response的默认编码是多少？ 
+====
+ISO-8859-1
+====
+
+$.AJAX必须和data一起用吗？top.jsp中
+====
+可以没有data,只是普通的请求不传参
+====
+
+拦截器可以循环调用，但是第一个拦截器谁来调用，个人理解是系统来调用第一个拦截器
+
+web.xml中为什么不需要要配置jsp.servlet要配置
+====
+tomcat中的config文件夹下有配合，web.xml文件中
+====
+
+log4j用法
+====
+Logger log = Logger.getLogger(UserInterceptor.class);
+log.warn("+++++++++++++++++++++++begin");
+log.warn("+++++++++++++++++++++++param++++++"+param);
+
+这五个级别是有顺序的，DEBUG < INFO < WARN < ERROR < FATAL
+
+===
+
+
+查询为什么只能用 '%$teacherName$%'，不能用‘##’ xml中的property是外部传进来
+==============
+可以用，缓存问题
+==============
+ <isNotEmpty prepend="and" property="startDate" >
+        <![CDATA[ to_char(t.DXSJ,'yyyy-mm-dd') >= #startDate# ]]>  and 
+        <![CDATA[ to_char(t.DXSJ,'yyyy-mm-dd')<= #endDate# ]]>
+      </isNotEmpty>
+为什么只用startDate就行了？
+=============
+property是指传进来的参数对应的某个属性值，如传入的是map,就是map中的属性值，##中的map还是map中对应的属性值，只是property是用来进行条件判断   （property属性，针对的是ibatis传入参数的map属性值，如果传入的参数不是map类型的，那么就不能使用property属性）
+===============
+
+<context:component-scan base-package="com.drdg.*.service..*" />  ..*什么意思
+===========================
+execution(public * *(..))
+任何一个以“set”开始的方法的执行：
+execution(* set*(..))
+AccountService 接口的任意方法的执行：
+execution(* com.xyz.service.AccountService.*(..))
+定义在service包里的任意方法的执行：
+execution(* com.xyz.service.*.*(..))
+定义在service包和所有子包里的任意类的任意方法的执行：
+execution(* com.xyz.service..*.*(..))
+===========================
+
+-------------------------------------------------------
+项目技术
+
+一登入就调用UserDetailsServiceImpl的UserDetailsServiceImpl方法
+
+项目右键new-package 和 new-folder是一样的
+
+js中的substr(start,length)  java substring(startindex,endIndex)
+
+<bean class="com.hs.dolphin.dao.xml.ResourceDao" scope="singleton"><property name="configLocation" value="permission/ResourceConfig.xml" /></bean>   tomcat启动时该实例化的实例化，该注入的注入
+resourcedao没有声明注解是因为在spring配置文件中有配置
+public void setConfigLocation(String configLocation) {
+	this.configLocation = configLocation;
+	initResourceConfig();
+}
+再实例化resourcedetailservice
+
+water水利项目不要连接vpn,项目上有个红叉应该看buildpath上是不是jar包出错了
+
+result默认是转发，  <result name="success" type="redirect"></result>就是重定向，type="dispatcher" 在strut-default-xml中有配置
+
+struts中包pagage的默认命名空间：默认命名空间应该是“/”吧。 2、命名空间是以“/”开始的，表示相对于项目的路径：如namespace="/test"，项目名称为myapp，且有name=testAction的action，通过http://ip:port/myapp/test/testAction.action地址就可以直接访问了，如果通过struts2标签来访问，如<s:form action="testAction" namespace="/test"></s:form> 
+原始action中<action name="loginAction" class="com.sss.Login" method="execute"> 默认method方法是execute,可以不写,action是通过struts.xml中的name来访问的
+
+action存在于actioninvocation中，result对象，还有18个拦截器也是放在那里
+
+原始strut中访问action可以这样理解：根目录下存在虚拟的action目录可以访问，如根目录下的index.jsp中有表单action="login.action",就是访问根目录下的
+
+理解一下环境变量中classpath适用于javac,和项目中的classpath使用自己的项目
+
+servlet配置中的url“/”就是与web-inf同目录的，就是项目应用的根
+
+子类中输入几个方法名字母，再按alt+"/"就可以找到父类的方法
+
+tomcat控制台就是程序中myeclipse的控制台
+
+java点击出现所有的变量和java所有变量的替换  alt+shhft+R替换所有名字一样的变量
+
+@Override就是重写父类方法，加了的话父类没有这个方法就会报错
+
+项目右击设置编码是设置java代码的编码，jsp有自己的编码，response不一定是utf-8,要设一下	
+
+tomcat一启动的时候就new filter,以后就不new了，new的时候会调用init()方法   （*.jsp ） （   /sysmr/*   目录下的所有文件进行拦截   /指的是跟目录 ） （/* 所有请求）
+
+一程序为中心往外写就是输出
+
+去掉复制svn有绿色勾：去掉.svn文件夹，默认是隐藏的
+
+访问jsp就是服务器端调用java类的方法打印出来
+
+转义用"\"
+
+svn用法和本地文件对比：就是项目右键-与资源同步
+
+考勤设置只针对校门
+
+一般拦截器的result都定义在全局结果中
+
+给用户分配角色，用户管理->角色分配->选定一个角色（可以用查询）->点击下面的”分配角色给所选用户就行
+
+ctrl+l跳到某一行
+
+重新部署有时也会出现问题，要清除部署在重新部署
+
+frame改变它的attr属性会重新加载
+
+web项目根目录：WebContext下面的文件就是根目录
+
+Hot Code Replace Failed原因：增加、删除类文件或者在一个类中增加、删除方法时,是不能够热部署到服务上的。这时候需要停止服务器重新部署后再启动,就不会出现上面的提示了。
+但是好像直接可以编译，现在的action文件中
+
+FileUtils.copyFile(myImage, savefile);文件不存在创建，存在覆盖原文件
+
+项目一登入便执行resourcedao，该实例化的实例化，该注入的注入
+
+0xff 0x表示l6进制，对应的二进制11111111  >>>又移，最高位补0，右移一位相当于除以2
+
+解决图片缓存问题：src="<%=request.getContextPath() %>/headphoto/xx.img?timestmp="+new Date().getTime(); new Date()为js函数 xsgl_list.jsp，因为浏览器相当于缓存了src及图片，src一样就不会读取服务器数据，直接从浏览器读，用时间错可以解决。即每次请求的地址是相同的,浏览器就不会去连接服务器而是去读取缓存，用new Date().valueOf()，new Date()，new Date().getTime()都行，用Date().getTime()好
+
+根目录下index.jsp中的top.href = 'login.action',对应的url就是localhost:8080/SmartCampus/index.jsp==>localhost:8080/SmartCampus/login.actin 因为是访问同一目录
+
+文件上传可以通过表单提交传到action（action上一般对应3个参数   
+    private File image; //上传的文件
+    private String imageFileName; //文件名称
+    private String imageContentType; //文件类型）,也可以通过插件提交到action,$.ajax异步不能提交文件，但有插件可以异步提交
+
+
+一种是通过redirect的方式，一种是通过forward的方式。redirect方式的跳转，系统会在一个新的页面打开要跳转的网页；而forward方式跳转，系统会在原来的页面上打开一个要跳转的网页。所以放到WEB-INF目录下的文件是不允许采用redirect方式的跳转来访问的
+模拟redirect：  <form name="testform" action="/WEB-INF/jsp/test/test.jsp"></form>
+模拟转发：<jsp:forward page = "/WEB-INF/jsp/test/test.jsp" />
+struts中的result默认是转发所以可以访问web-info下面的jsp
+因为web-inf下,应用服务器把它指为禁访目录,即直接在浏览器里是不能访问到的.
+
+
+重定向理解：http://localhost:8080/SmartCampus/test.jsp，test.jsp中重定向<%response.sendRedirect("www.baidu.com");%>,地址栏中变为http://localhost:8080/SmartCampus/www.baidu.com,路径是相对的
+response.sendRedirect("/www.baidu.com");     只指web站点更目录==http://localhost:8080/www.baidu.com，上面是应用程序根目录
+转发和重定向都有相对和不相对，相对就是不加“/”,加“/”重定向相对于整个WEB站点的根目录localhost:8080/，转发相对于当前WEB应用程序的根目录localhost:8080/SmartCampus/
+可以重定向到百度用全路径（http://www.baidu.com）,a标签和loaction等方法只是页面普通的页面跳转，就相当于在浏览器输入网址发送请求
+action和resutlt到的页面默认也是转发关系，相当于访问第一个jsp,第一个jsp处理逻辑后，转发到第二个jsp,请求哪个页面，这个页面可以获取请求uri等信息，第一个和第二个
+请求uri应该不同，验证后重定向和转发request.getRequestURI()都是不同的
+其实发送请求可以理解为两种:地址栏发送请求，和服务器内部发送请求，前一个适用于重定向，后一个适用于转发
+
+<constant name="struts.convention.package.locators" value="web" />这个配置好以后项目中
+localhost:8080/SmartCampus/srit/jw/web/homepage/index!index_flow.action变成localhost:8080/SmartCampus/homepage/index!index.action，去掉了action包路径中的/srit/jw/web包，因为配置了	<constant name="struts.convention.package.locators" value="web" />
+其实对应：localhost:8080/SmartCampus/srit/jw/web/homepage/IndexAction.java中的index_flow方法，只是请求是要用.action方式,截掉Action，Index变小写
+多种方式可以理解：1.用上面的方式就相当于类似于访问jsp(webcontect是应用根目录)页面一样，一个一个写路径（src是根目录）
+2.访问某个action，找到action后，就可以得到namespace,如srit.jw.web.homepage.IndexAction,得到命名空间namespace:/homepage,得到访问url /homepage/index,前面加上头就行localhost:8080/SmartCampus/homepage/index就能访问
+
+用配置方式访问action访问的action的虚拟路径，再根据配置文件找到对应的action类，用convention直接用全路径访问(如上面所示)，在通过配置简化访问url
+
+struts.xml中的包（<package></package>）继承struts-default.xml中的struts-default包（该包中定义了很多拦截器和默认栈  <default-interceptor-ref name="defaultStack"/>）
+加入convetion以后  struts.xml中的包继承struts-plugin.xml中的convention-default包，convention-default包继承struts-default.xml中的struts-default包
+总结：struts.xml包---》struts-plugin.xml---》struts-default.xml
+继承过程中可以重写如：	<default-interceptor-ref name="crudStack" />重写struts-default包中的default-interceptor-ref，继承是指继承包（<package></package>）中的所有东西
+对于变量<constant>是默认用defalut.properties中定义的变量值，也可以在strut.xml中自己覆盖<constant name="struts.action.extension" value="action,do" />，用了convention插件后变量默认的都定义在strut-plugin.xml中，可以这里的所有变量是默认继承过来的	
+
+web.xml里面的这个filter，他本质是一个过滤器，这里设置的内容就是我们要让这个过滤器过滤的内容
+/*，我们的这个配置的意思是所有的链接地址都要经过struts2的过滤器的处理
+struts.action.extension这个里面指定的扩展名，也就是说默认是action的我们才交给struts2控制器来处理，不是action扩展的我们不管
+
+convetion实现resutl方式：
+1.访问过程中action存在xx!a.action（即在跳转到页面前做逻辑处理），则页面转到resutl="list" 即xx_list.jsp页面，拦截器中返回的是list
+2.问过程中action不存在xx.action（不做逻辑处理），则页面转到 xx.jsp,拦截器中返回的是success,bottom.jsp就是用这种方式实现，这是convention默认方式
+
+访问action，如果没有自定义方法，就执行execute方法,其实默认是xx!execute.action只是简写了
+
+Action类的包路径转为结果页面的存储目录，查找结果页面的约定：先找action名-result名.jsp，找不到。再找action名.jsp,找不到。再找result名.jsp
+indexAction中index()方法是跳到main.jsp，而不是跳到index_main.jsp,因为该页面没有    
+==>action为IndexAction  result="main" （index-main.jsp-->index.jsp-->main.jsp） 
+
+命名空间。从定义的.package.locators标示开始到包结束的部分，就是命名空间。举个例子：
+Com.ustb.web.user.userAction的命名空间是:/user。Com.ustb.web.user.detail.UserAction的命名空间是:/user/detail（参考struts2采用convention-plugin实现零配置文档）
+
+<constant name="struts.enable.DynamicMethodInvocation" value="true"/>动态方法调用,就是调用index方法index!index.action，我那个oa项目是默认为true,smartcampus是设置的为false
+
+<constant name="struts.multipart.maxSize" value="31457280" />struts2 修改文件上传大小限制,value="5000000"约等于5M=5*1024KB  1KB=1024B  1B（字节）= 8位（bit）,英文站一个字节，中文占两个字节
+
+web.xml中设置出错页面的好处：不会跳到默认的web出错页面(http status 404 - /SmartCampus/dolphin/bottom.jsp),更加友好
+
+DateUtils中：Date buffer = DateUtils.stringToUtilDate(bufferTime);   DateUtils.toDateByFormatString(new Date(), "yyyy-MM-dd HH:mm:ss")
+
+一般删除后直接回到第一页，用表单提交的方法$("#page_list_form").attr("action",'/SmartCampus/zdykq/kqrw!queryKqrw.action?page.currentPage='+currentPage);
+
+$.AJAX不能传输File类型数据，ajaxfileupload.js中的$.ajaxFileUpload可以传输File数据，导入功能就是，把选择的文件传到action中File变量接收，在解析文件导入
+				
+$("#page_list_from").submit();
+
+#request.menus_user.get(0).subResource指的是<mainMenu>下的<menu>
+
+默认角色赋值在main.jsp中的 user/role!queryUserRole.action中，BjglAction中有个属性字段default_role
+
+表单调用action和ajax调用有什么区别:用表单调用action相当于表单提交，一般是要刷新页面，所以return中有页面转向，而ajax没有
+
+UserInterceptor可以注入service原因是<context:component-scan base-package="com.hs,srit.jw" />
+	
+子类有个方法，方法中调用this.方法，可以把该方法放在父类中，把this.方法放在父类中调用，向上抽取
+
+http://localhost:8080/SmartCampus/homepage/index!index_qd.action可以优化用http://localhost:8080/SmartCampus/homepage/qd_index.action访问，只要配一下qd_index
+不要去登入页面就行
+
+if(log.isDebugEnabled()){
+    log.debug("bug！");
+}
+意识是，如果log4j的配置中设置了debug级别，那么就可以输出其他debug的日志，在日志中标记为[DEBUG].
+
+这样做的好处是，在我们开发阶段，我们可以把日志界别定位DEBUG级，调试信息会输出在日志里便于调试和跟踪修改bug，当产品发布上线之后，就可以在log4j配置为info,log等，这时调试信息就不会输出在日志里，日志会只显示运行的相关信息。如此一来，控制输出什么日志不需要修改代码，只需修改配置文件的参数而已。
+
+xml中的get方法中的传入id的占位符可以随便写，如#value#,#user_id#
+
+原始action怎么访问
+总之一句话：因为配置了struts框架，地址栏中的url是根据struts框架来运行，如：http://localhost:8080/sturutstest/hellow_world.html
+(strut.xml配置了扩展名包括html)就是根据url查找action,没找到就跳到hellow_world.jsp页面，页面没有抛出 no Action mapped Exception 
+如果没有配置sss：，如：http://localhost:8080/sturutstest/hellow_world.sss，则抛出传统的页面没找到异常（数据一大堆），假设web.xml配置了错误页面
+那么就会找到该页面，更加清楚
+
+service.get(String id)		getSqlMapClientTemplate().queryForObject _get      <select id="XX_get">select </select>
+service.queryAll(queryMap)	getSqlMapClientTemplate().queryForList  _list      <select id="XX_list">select</select>
+service.query("_ofZdykq", map)  getSqlMapClientTemplate().queryForList  _ofZdykq   <select id="XX_ofZdykq">select</select>
+service.query(queryParameter,page)                                      _list      <select id="SritZdykqRw_list" resultClass="srit.jw.domain.SritZdykqRw" ></select>  
+service.queryPageByStatement("_kqtj", map, page)                                   <select id="ViewZdykqjg_kqtj" resultClass="java.util.HashMap" ></select>
+service.insert(sritZdykqRw)  	getSqlMapClientTemplate().insert   	_insert    <insert id="XX_insert">insert into</insert>
+service.update(sritZdykqRw)  	getSqlMapClientTemplate().update    	_update    <insert id="XX_update">update set </insert>
+service.delete(sritZdykqRw)     getSqlMapClientTemplate().delete    	_delete    <delete id="XX_delete">delete from</delete>
+service.edit("_deleteAll",map)  getSqlMapClientTemplate().update    	_deleteAll <delete id="XX_deleteAll">delete from</delete>		
+service.edit("_updateAll", map) getSqlMapClientTemplate().update        _updateAll <insert id="XX_updateAll"> update </insert>
+service.queryByProperty(map)map中key放_list所在的xml中对应的property属性的值   getSqlMapClientTemplate().queryForList  _list  <select id="XX_list">select</select>    
+queryPageByStatement(String statement,Map<String, String> parameterObject)  很少用
+</insert>
+List<ViewZdykqjg> list=viewZdykqjgService.queryAll(queryMap);   viewZdykqjgService有对应的viewZdykqjg.xml提供查询数据，也有domian中的viewZdykqjg.java，封装数据
+
+<constant name="struts.action.extension" value="action,do" />加了这表示访问action必须以.action,.do结尾，而且必须以这个结尾，只是改变访问action的方式，由原来的
+index==>index.action和index.do,index!index==>index!index.action和index!index.do(加了动态方法调用)，因此struts convention也由原先的 /hellow==>/hellow.action
+
+获取参数有两种方式:form的name和url后面的参数,action中的属性字段会存在request中，默认为null,一设值就不为空了
+
+//验证学生编号是否存在：新增时查看全部数据，存在不能新增，修改时要取出自身查看，存在不能修改，不存在指（没有的或者本身）可以修改
+
+PrintWriter(out.printlln或out.write)和 JspWriter(out.write)的区别是：首先打印PrintWriter要打印的数据，在打印JspWriter中的数据，都打印到浏览器端,
+PrintWriter是javaAPI中的就是打印，但是要用到response中的PrintWriter才可以打印到浏览器端(就是要写入到response,通过response返回)，JspWriter应该Servlet实现好了直接写入，
+同时ajax请求要理解:ajax请求时，一般主页面已经存在，请求过程中通过response返回，就是打印到了浏览器端，可以认为这个response所返回的数据追加到主页面上，在通过result去取这个追加数据
+
+认证通过截取获得用户名：
+String userName = results.substring(results.indexOf("LoginName")+12).substring(0, results.substring(results.indexOf("LoginName")+12).indexOf(",")-1);;
+
+项目总结：convention优先级第一，全局优先级第二，action中的页面优先级第三，如userInteratpr中访问test.action，有对应的test.jsp,且定义了全局，还是跳到test.jsp,就是风两种情况：有action和没有action，没有action，convention优先级第一，有action全局优先级第一，有action因为首先要经过拦截器，拦截器转掉了
+
+insert into srit_xmkq_sj(user_id,student_code,user_name,kqsj,card_id,week_of_worktime,day_of_week,day)
+      select s.id,c.code,c.user_name,#kqsj#,c.card_id,#weekOfWorktime#,#dayOfWeek#,week_to_day($weekOfWorktime$,$dayOfWeek$) from sys_user s 
+
+java中的main方法和web一样，一个throw可以在控制台看到，一个throws抛出去可以在浏览器看到错误信息，拦截器中用户为空，就会在页面出现空指针e.printStackTrace();打印到控制台
+
+正式post不通是C:\Windows\System32\drivers\etc\hosts不通
+
+500就是服务器内部错误：比方action中没有要访问的方法，页面要转向时没有页面
+index.action就是index!execute.action，action中有多个方法，都有页面转向，不要定义index.jsp页面
+访问action中的方法，如果execute()方法不存在，报500错误,同理适用其他方法如：hoeempage/index!sss.action==> 500
+默认actcion返回一般写"success",访问aciton对应页面,/test.Action==> content/test.jsp,当页面（test.jsp）不存在,先进入action对应方法，要转向页面时由于页面不存在报500错误，默认的exeute方法页面转向(return "jkl")也是test_jkl,test,jkl的循序，默认方法和正式方法没有区别，默认方法一般返回"success"（测试常用）,也可以是其他"jkl",也是按照优先规则找页面
+
+（1）没有action情况：
+localhost:8080/SmartCampus/sss.action,conventio插件只访问页面content目录下的sss.jsp页面，不存在404
+
+（2）有action情况：
+					有action（indexAction）情况，有execute方法("success"),有index.jsp页面    没有index.jsp页面
+homepage/index.action                   execute()      homepage/index.jsp                                          500（会进入execute()方法，要转向页面时报500）
+homepage/index!execute.action           execute()      homepage/index.jsp                                          500（会进入execute()方法，要转向页面时报500）
+homepage/index!index_flow.action        index_flow()   homepage/index.jsp                                          该方法自己页面，页面不存在也会500，同execute一样
+							
+用了convention插件后web-inf目录下（包括其子目录，如content）的下面的jsp就不能直接访问，但是应用根目录下的jsp页面还是可以访问，包括其子目录jsp页面也可以访问，这是
+struts功能限制不能直接访问web-inf下的文件如jsp文件，要用action访问更加安全
+
+ajax调用返回的是result是字符串，result = eval("["+result+"]");（字符串变对象） 一下变成了对象，要记住js只有两种类型[],{},或者结合的[{}]，
+
+sritqingjiajl.setKasj(DateUtils.toDateByFormatString(DateUtils.stringToUtilDate(sritqingjiajl.getKasj()), "yyyy-MM-dd HH:mm:ss"));  teacherAction modifyShZt()方法
+
+String nowDate = DateUtils.toDateString(new Date());
+map.put("appStartDate", nowDate+" 00:00");
+map.put("appEndDate", nowDate +" 23:00");
+
+skkqjg ndata控制后可以查询当天
+
+eclipse启动后validate项目慢的话可以通过 右击任务管理器杀掉eclipse进程后在重新启动eclipse就行
+<s:if test="">不能内切，如<s:if test="<s:property ></s:property>"></s:if> student_qjsq.jsp文件
+这种情况不是内切，如下<S:IF><S:IF></S:IF></S:IF>
+
+但是html标签可以内嵌	<li <s:if test="%{page.currentPage==(current-1)}">class="disabled"</s:if>>
+
+No result defined for action XXX and result input这种错误的原因一般是你页面的属性和action里的属性个数、名称、类型不一致造成的。 
+
+log4j中的debug中log4j.rootCategory=DEBUG, stdout可以去掉debug，这样在控制台不会显示太多的debug数据
+
+#request.sritqingjiajlList.get(0).bzrShzt==3||#request.queryParameter.get('flag')
+#requeest记住对象去属性用.属性名,去map对象属性用.get(''),字段直接用#request.teacher_id,这个teacher_id是在action中的属性值
+
+js操作的东西比如append()等方法右击源代码看不到的
+
+web.xml->index.jsp->login.action->login.jsp->UserDetailService.java->applicationContext-security.xml->/dolphin/index!index.action
+
+正式部署总结：跟本地一样配置好jdk,和tomcat后，开启tomcat还是用localhost:8080测试tomcat,端口可以在tomcat中的配置文件中可以看到，不想使用8080，server中的net 
+telnet 202.107.209.179 8080，远程访问其实是背访问电脑的ip地址，知道要远程的电脑的ip就能进行远程访问
+
+8080端口是否占用看0.0.0.0:8080下面还有一个就是127.0.0.1:8080是同一个，等价于[::]:8080,省略写法[::]
+
+127.0.0.1就是localhost,后面都要加端口号
+
+jdbc问题的连接错误如果不是vpn导致的问题那么就是缓存问题
+
+ <li style="width:12%" title="<s:property value="sksj"/>"><s:property value="#stringHelper.sub(sksj,16)"/></li> kqjl_list.jsp住宿考勤页面中的sksj可以是date类型，也可以截取
+
+list中的add是存的是对象的地址 参考ResourceConfigBuilder getMenuResourceList方法中对list的使用
+
+登入过程中先调用UserDetailsServiceImpl中的loadUserByUsername方法就是把登入者绑定权限放到security中，在根据配置文件调用/dolphin/index!index.action
+此时可以取到user放到 remoteuser中去
+
+请求分两种方式理解：本地url,和跨域的url,本地url访问，访问的返回数据就可以认为写到页面上，在success中的resutllt去读。直接在
+地址栏中写url就是返回的数据，跨域的也可以这样理解，因为跨域你就会访问他的url,url就是返回的数据
+
+action请求过程中全局变量的理解：set方法用来存变量的值，get方法页面jsp上用来读取的,这里是有点问题的#request.page.data，因为用page.data是可以理解要加
+get方法，不然取不到数据，但是用#request.page.data就很难理解
+
+xml中_count中是不需要sort和dir的，因为只是统计条数
+
+action放在值栈中，可以获取action中的属性，因为action是放在栈顶的，该属性要声明好get和set,用var a = '<s:property value="list_data"/>'，
+但是去这集合没多少用，最好在<s:iterator value="list_data" var="item" status="i">用
+
+#request.page.data相当于request.getParameter("page").getDate();已测试不要多用
+--------------------------------------------------
+struts此轮回复，case用法 和 decode用法，js截取用法，list优化，Acegi安全用户认证框架，oralce转换decode sex 0 和 1，在校生非在校生实现后台转码
+怎么访问action，ORA-01400无法将 NULL 插入数据库问题，java类需要编译后放到tomcat，根目录下的jsp能访问其他jsp不能访问是插件影响
+substring(10);截掉前10，脚本中可以添加struts标签
+results = results.substring(0,results.length()-2);截掉后两 反应要快
+JsonUtils.json2Bean(jsonData, clazz);json转数组
+map = JsonUnit.init().readValue(results, Map.class);  json to map
+
+@Autowired(required = false)
+<ref local="dataSource"/>
+
+ib也是根据实体来查询 
+<!-- 通过typeAlias使得我们在下面使用Student实体类的时候不需要写包名 -->  
+    <typeAlias alias="Student" type="com.lubby.bean.Student" />  
+李炎恢老师jQuery EasyUI视频课程(共58课时)_在线培训教程_51CTO...
+
+this.addFieldError("file", "文件不能为空，请选择");
+
+s:iterator 中 var作用
+
+struts-defautl.xml 包名中的abstract
+
+smartcampus中domain和。xml中的字段对应关系怎么映射的 
+
+@Results({ @Result(name = "sso", location = "/dolphin/index!index.action",type = "redirect") }) IndexAction.java
+
+
+ResourceConfigReader
+	public List<Resource> getMenuResourceList() {
+		return getMenuResourceList(getResourceList());
+	}
+
+resourceDao.getMenuResource() 配置文件中的所有菜单
+
+	/**
+	 * 根据resourceIdsList从reourcesList获取所拥有的资源
+	 * 
+	 * @param reourcesList
+	 * @param resourceIdsList
+	 * @return
+	 * @create 2008-7-8 上午11:20:07 chennp
+	 * @history
+	 */
+	public List<Resource> getOwnResourcesListByIds(List<Resource> reourcesList,
+			List<String> resourceIdsList) {
+		Collections.sort(resourceIdsList);
+
+		List<Resource> subMenusList = new ArrayList<Resource>();
+		for (Resource resource : reourcesList) {
+			subMenusList.addAll(getOwnResourcesListByIds(resource,
+					resourceIdsList));
+		}
+		return subMenusList;
+	}
+
+	public List<Resource> getRoleMenusListByUserId(Long userId) {
+		Assert.notNull(userId, "userId不存在");
+
+		return resourceService.getMenusListByIds(getResourceListByUserId(userId));
+	}//这个方法要理解 getMenusListByIds获取配置文集中的所有菜单和getResourceListByUserId(userId)获取自己的菜单比较后，返回自己的菜单
+
+
+	ActionContext.getContext().put("mainResource",JsonUtils.bean2Json(resourceService.getAllResourceId()));  
+	
+
+有时间可以看的代码：
+PBeanUtils.getInstanceByClassName ResourceDefinitionParser中的getResourceFromNode方法，设个断点，启动服务命中
+
+PBeanUtils.setBeanPropertyByName(resource, element.getName(), element.getValue());
+
+ResourceConfigBuilder中的getMenuResourceList
+
+ResourceService中的getOwnResourcesListByIds
+
+ResourceConfigBuilder中getUriResourceMap()方法
+
+
+isIgnoreNode
+
+
+经典代码：
+	/**
+	 * 递归获取其子资源
+	 * 
+	 * @param resource
+	 * @return
+	 * @create 2008-7-4 下午03:04:43 chennp
+	 * @history
+	 */
+	private List<Resource> getOwnResourcesListByIds(Resource resource,
+			List<String> resourceIdsList) {
+		List<Resource> menusList = new ArrayList<Resource>();
+		if (hasOwnResource(resourceIdsList, resource)
+				|| resource.isRootResource()) {
+			menusList.add(resource);
+		}
+		if (resource.hasChild()) {
+			List<Resource> subResourceList = new ArrayList<Resource>();
+			for (Resource subResource : resource.getSubResources()) {
+				subResourceList.addAll(getOwnResourcesListByIds(subResource,
+						resourceIdsList));
+			}
+			resource.setSubResources(subResourceList);
+		}
+		return menusList;
+	}
+
+
+浏览器没有关闭原来窗口，新建窗口用户信息还是存在
+                                   
+
+	$("#stuUl").append("<li name=\"myLi\"><img id=\"stuImg\" src=\"<%=request.getContextPath()%>/headphoto/"+values[4]+".jpg?timestmp="+new Date().getTime()+"\" width=\"177px\" height=\"141px\" style=\"position: absolute;top: 159px;left: 314px;\" onerror=\"this.src=\'<%=request.getContextPath()%>/headphoto/defaultPic.jpg\'\"/></li>");
+c盘清理
+
+	BufferedWriter writer = new BufferedWriter(new FileWriter(new File(ServletActionContext.getServletContext().getRealPath("/files/xsxx/student.txt"))));  为什么加"/"
+
+重要的：
+web与struts整合以后jsp页面怎么访问
+invocation调用
+有空测试动态方法调用把它初始掉
+action有execute会·调execute方法，没有的话怎么也返回success
+数据时时输出到.json文件
+测试纯strut时如果页面不存在action中的方法是否会命中，convention插件在的时候好像不会进入actionz中的方法，
+No 'Access-Control-Allow-Origin
+jsonp 实现跨域
+iframe实现局部刷新
+编码方式，敏捷开发，浏览器的缓存机制，log4j日志
+----------------------------------------------------------------
+
+
+
+160101
+
+
+oracle技师还没学完：
+http://cache.baiducontent.com/c?m=9d78d513d99e01fc09b3c3690c66c0161843f3622ba1d1020ed58449e3732b32501597ac56510770a5d13b275fa0131aacb22173441e3df2de8d9f4aaaeace7871d57275671cf1104f8c04ef901a708473cc0ff4ed04e6bdf43196a9d8c4df23098c0c5b&p=8b2a9729838233ff57ee957c464ac9&newp=8a7dc54ad5c243ef4eb4d42d021495231610db2151d6d21f6b82c825d7331b001c3bbfb423231506d3c07c6605a84b5deef43d7933052ba3dda5c91d9fb4c57479c8316d30&user=baidu&fm=sc&query=oracle%B3%A3%D3%C3%BA%AF%CA%FD&qid=e5f778e40001c2ed&p1=1
+
+
+
+考勤结果 0-未到 1-正常到 2-迟到 3-请假 4-不需要考勤
+
+
+技师学校：
+技师学校正式app地址：http://192.168.1.51:8080/smartcampusjs/ssojs.action 
+技师学校单点登入: /smarteducationjs/ssojs.action
+林必成	  student_id 20132128         class_id 201306       班主任：韩杰（2004101）
+系部：  严勇：1988104
+校领导：林伟标：1987101
+
+
+
+镇江app：
+老师
+/SmartEducatoinZj/mobile/teacher!queryDxkq.action?identityId=
+
+测试学生 王中铭（330204199909256010）
+/SmartEducatoinZj/mobile/student!queryDxkq.action?identityId=330204199909256010
+
+
+
+
+
+
+                      update sys_menu set enable = '0' where id = '4.2.3';
+                      update sys_menu set enable = '0' where id = '3.4.3'
+
+
+
+
+http://localhost:8080/abzh/getMenuTree!user?gcType=gc_st
+
+
+
+
+
+n为json文件路径 返回的s就是json数据
+
+
+	$.getJSON(n, {}, function(s) {
+
+
+
+全局变量都是window对象的属性”。当执行checkThis() 时相当于window.checkThis()，因此，此时checkThis函数体内的this关键字的指向变成了window对象，而又因为window对象又一个x属性（'thisis a property of window'）,所以会弹出 'thisis a property of window'。 
+
+
+
+
+http://blog.csdn.net/java0311/article/details/48243849
+
+
+
+wiwin+方向键

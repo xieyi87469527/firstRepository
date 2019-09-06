@@ -1,0 +1,229 @@
+107.172.248.216
+
+full.js--->f_index.html首页--》index_a框架包括地图page-wrapper和fram-wrapper
+
+f_index.js中的vue跳到E:\workspace\nbncgcgl\WebContent\views\province\home\home.js
+
+
+f_index.html在router-view好像嵌入了home.html,home.html中嵌入了overview.html首页
+
+
+ select * from wxyh_prj_doc;
+ 
+ select * from wxyh_prj_doctype;
+ 
+ select * from wxyh_prj;
+
+
+SELECT a.filetypename as name, 
+(SELECT COUNT(*) FROM dbo.wxyh_prj_doc  
+WHERE  filetypeid=a.filetypeid and prjid= 'FE9350D5-6705-4496-B5C3-3ADD0088D11D' ) as count ,
+ a.filetypeid AS id,a.pid AS pId FROM wxyh_prj_doctype a 
+ WHERE a.rescd='gc_ht-330206000135'
+ 
+
+os_region
+
+
+select * from view_user_menu
+
+SELECT DISTINCT c.loginname,d.id as myid, a.menu_id AS id, d.pid, d.name, d.action, d.icon, d.ord, d.enable, d.type, a.gcType, a.edit, a.upload, a.audit
+FROM         dbo.sys_role_menu AS a LEFT OUTER JOIN
+                      dbo.sys_role AS b ON a.role_code = b.code LEFT OUTER JOIN
+                      dbo.sys_user AS c ON c.role_code = b.code LEFT OUTER JOIN
+                      dbo.sys_menu AS d ON d.id = a.menu_id where a.gcType='gc_st' and c.loginname='blslj'
+                      
+                      select * from sys_role_menu;
+                      select * from sys_role;
+                      select * from sys_user where loginname='blslj';
+                      select * from sys_menu where name='定期检查'
+
+
+
+fhsj下面几个都有
+select * from P_BMRSV;
+select * from P201_RSV;
+select * from P901_MountainPond;
+select * from P_Seawall;
+select * from P206_DIKE;
+select * from P203_GATE;
+select * from P204_PUMP;
+select * from P2071_SUPPLY;
+select * from P202_STATION;
+
+select * from P7022_IRR;
+
+
+gc_bmres   P_BMRSV  中型水库，大型水库
+gc_sres    P201_RSV  小型水库
+gc_st     P901_MountainPond 山塘
+gc_ht     P_Seawall       海塘
+gc_df     P206_DIKE       提防
+gc_dzxsz   P203_GATE       中型水闸
+gc_bz      P204_PUMP       泵站
+gc_ncgsgc  P2071_SUPPLY    农村供水工程    ntsl
+gc_ncsdz   P202_STATION     水电站
+gc_dzxgq    P7022_IRR       灌区
+                      
+
+
+os_res app表
+
+select * from ntsl_bz
+select * from P204_PUMP 
+
+select * from ntsl_sz
+select * from P203_GATE
+
+
+设置菜单：
+
+ select * from os_region
+ select * from sys_region
+ 
+ select * from sys_user where loginname = 'hzw'
+ select * from sys_role where code = 'admin_hzw'
+ select * from sys_menu
+ select * from sys_role_menu where role_code = 'admin_hzw'
+石头
+---------------------------------
+二通道相关的表：
+Manage_Person 人员岗位表
+Person_Project  人员管理的工程表
+sys_user 用户登入表
+
+
+
+---------------------------
+南堤 gc_ht-330206000136
+北堤 gc_ht-330206000137
+
+南堤大闸 gc_dzxsz-330206000148	
+北堤大闸 gc_dzxsz-330206000149
+
+
+
+insert into nbncgcgl.dbo.river(rivername,grade,riverlength,ChargePerson,ChargeDep,
+ChargePosition,ChargePhone,throughtown,startbelongtown,endbelongtown) 
+select RiverName,Level,RiverLen,ChargePerson,ChargeDep,ChargePosition,ChargePhone,Town,StartPoint,EndPoint
+ from [NBSHJ].[dbo].[T_RiverPersonInfo] where ID = '2095'
+
+
+【基本信息】
+1.管理机构
+SYS_Reservoir  管理机构表
+
+2.人员岗位	
+SYS_Gctype_Post===》SYS_Port_tree===》SYS_Post 岗位表
+select * from SYS_Gctype_Post
+select * from SYS_Port_tree order by postcode desc
+select * from SYS_Post where RESCD = 'gc_sres-330205000002'
+人员岗位表
+o_user
+
+
+【蓄放水管理】
+1.放水预案
+fangshuiyuan_classification  放水员目录表
+fangshuiyuan 放水预案记录表
+fangshuiyuan_atta 放水预案附件
+2.放水记录
+ddczSt_classification
+ddczSt
+ddczSt_atta
+
+
+【维修养护】
+1.维修养护经费
+funds_file 经费表
+
+2.维修养护项目
+wxyh_prj 维修养护记录表
+wxyh_prj_atta 附件不用，附件在记录表中
+
+维修养护双击后
+wxyh_prj_doctype 左边树文档表（是根据rescd空查，还有自定制的目录）
+wxyh_prj_doc 文档记录表（附件也在这张表中）
+
+3.隐患处理
+el_handleform_other 隐患处理记录表
+el_handleform_atta_other 附件表（fileid附件表id,formid记录表id，上传时附件fileid和formid会自动生成，插入附件表，点击保存在插入主记录表）
+
+【应急管理】
+1.yjgl_preplan 应急预案记录表
+2.yjgl_preplan_atta 应急预案附件表
+
+
+险情数据标准化很少不需要整理到农水处项目
+
+
+【设备保养】
+el_maintainform 设备保养记录表
+附件在el_maintainform 表中
+
+
+【调度运行】
+1.控制运行计划
+kyjh_classification 控制运行计划目录表
+kyjh_file   控制运行计划记录表 主目录下的子文件夹和文件
+kyjh_file_atta 控制运行计划附件表
+
+2.闸门操作
+FXYW_gate_operation 记录表
+
+3.指令通知
+zhiling_classification
+zhiling
+zhiling_atta
+
+4.操作记录
+ddOperation_classification;
+ddOperation;
+ddOperation_atta;
+
+
+5.巡查表inspect2_form
+
+
+	
+
+-----------------------------------
+首页 overviewservuceimpl getDaminspect
+select * from os_res where regionid='330283'  //奉化
+select * from os_res where regionid='330289' //杭州湾
+select * from os_res where regionid='330201' //镇海
+
+select * from sys_region
+
+os_res
+镇海原先330211----》现在330201
+杭州湾 330282---》330289
+
+select * from os_res 
+
+
+#xcTable td,#xcTable th
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+index_a.html?gcType=gc_df
+
+
+
+
+arcgis server javascript api开发geoweb 2.0应用

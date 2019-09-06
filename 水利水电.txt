@@ -1,0 +1,1515 @@
+
+159334049bssw@123
+
+
+--------------------------------------------------------------------------------
+数据库：(teamview  (1) 1079 987 863  htwater123   (2) administrator ZHNH@2018nbnh)
+10.19.72.81,20181                  sa/htwater@123                                            prjManage,NHGL 
+183.136.153.50,20181             sa/htwater@123                                            prjManage,NHGL
+
+应用：(teamview  (1) 1079 999 238  htwater123   (2) administrator ZHNH@2018nbnh)                    
+10.19.72.80:10000                                                                                nhPrjManage，ZHNH,  NHGL ,绿盒子
+115.238.135.58:10000             
+
+访问方式：http://115.238.135.58:10000/nhPrjManage/ 
+-----------------------------------------------------------------------------------------
+数据库:(远程  administrator/Abc@123)          
+172.16.35.12                        sa/htwater2,nbsl                                        abzh  kong_smp xpz_smp   nbncgcgl
+
+
+应用：(远程  administrator/Abc@bzh)           
+172.16.35.22:8090                                                                                  abzh  kong_smp xpz_smp
+htwater.net:8090    bzh.htwater.net:8090
+--------------------------------------------------------------------------------------------
+应用：(远程  administrator/Abc@123)           
+172.16.35.50:18091                                                                                nbncgcgl
+122.227.142.66:18091 
+`
+172.16.35.50:18092                                                                                controlcenterdemo  
+-------------------------------------------------------------------------------
+应用：(远程  administrator/htwater@123)         
+172.16.35.3:10000                                                                                   NHGL
+htwater.net:10000
+访问方式：http://172.16.35.3:10000/NHGL/login.html
+-------------------------------------------------------------------------------------------
+
+GPSGL
+
+ 数据库 159334049  bssw@123
+再远程100.2
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------
+oa:
+谢益
+z87469527
+
+要点两次下一步
+-----------------------------------------------
+嘉兴云服务数据库：
+云服务器数据库 地址 
+118.31.7.8:1411  sa    JXSLjxst@123 代码   
+118.31.7.8,1411  sa    JXSLjxst@123 sqlsever数据库
+
+
+118.31.7.8:8066/abzh_jx
+ 
+嘉兴闸泵工情数据库
+61.164.220.130:1433
+sa jxsljxst@123
+--------------------------------------------------------------
+网神
+61.153.21.222
+test
+test123456
+---------------------------
+
+
+孔浦admin kp123
+五江口admin wujk123
+化子admin hz123 
+慈江admin cj123
+澥浦admin xp123
+
+
+
+二通道项目：
+           日常巡查              首页巡查率统计和巡查上报                             首页
+孔浦       有(表格)                        还没                                             无
+五江口   有  (表格)                       还没                                             无
+化子      有 (表格)                         还没                                              最新3列首页
+慈江      有  (heatmap+表格)        有                                                最新3列首页
+澥浦      有 (heatmap+表格)         有                                                最新3列首页
+
+----------------
+git
+
+1.git 每次先更新
+team-pull
+2.git 提交代码
+team-commit
+3.提交代码后
+team-push to upstream
+--------------------------
+
+svn账号密码：
+xieyi/xieyi!@#
+
+无线密码：
+HTwater@123
+
+10.19.72.162
+远程数据库登入密码sa/sa
+
+本地工程放到svn:  team-->share project
+
+team-->断开连接
+
+------------------------------------------------------
+
+svn分享
+一个新工程 team-share project -->选择一个上传目录 
+
+svn处理冲突方法：
+1.到income mode 选中冲突的文件 右键update,别人的代码就会合并到的这个文件
+2.outgoing mode 提交改文件就行
+
+
+拷贝一个项目：复制黏贴
+1.svn下载项目
+2.断开连接
+3.改名字和webroot
+
+断开连接是选择 删除svn信息，如果出现问题，clean和项目重新导入
+----------------
+git修改代码先commit,新增代码需要add,commit,再pull就行，再push
+
+
+
+
+
+
+
+
+
+
+
+-------------
+网神vpn
+
+vpn:
+
+vpn连接地址：
+vpn.qgj.cn
+
+vpn密码：
+cs/1234567
+-----------------------------
+数据库地址和密码：
+192.168.100.1
+sa/htwater1,nbsl 
+sa/htwater1,nbsl
+
+192.168.100.3
+sa/htwater1,nbsl
+
+10.33.13.206
+sa/htwater1,nbsl
+------------------------------------
+标准化项目访问地址：
+	localhost:8080/abzh
+	登入账号和密码：
+	fhslj（奉化水利局）   fhsl@123    
+	xsslj   xssl@123
+	dx      123456
+	blslj（北仑水利局）   blsl@123
+	dqh    123456
+
+标准化正式地址：
+	http://htwater.net:8090/abzh/full.html 
+
+开发数据库：
+	192.168.100.1
+	sa/htwater1,nbsl
+
+正式数据库：
+	192.168.100.1
+	sa/htwater1,nbsl
+
+http://www.htwater.net:8090/abzh			
+序号	县市区	账号	密码
+1	奉化	fhslj	fhsl@123
+2	北仑	blslj	blsl2434
+3	象山	xsslj	xssl@123
+4	江北	jbslj	jbsl@123
+5	东钱湖	dqh	123456
+6	镇海	zhslj	123456
+7	大榭	dx	123456
+8	杭州湾	hzw	123456
+---------------------------------------------------
+QGJ_SMPP项目：
+
+开发数据库：
+	192.168.100.3
+	sa/htwater1,nbsl
+
+121.139857,30.257933
+
+正式数据库：
+	10.33.13.206
+	sa/htwater1,nbsl
+
+
+杭州湾:[121.139857,30.257933]
+
+localhost:8080/QGJ_SMPP
+登入账号：cs/1234567
+
+
+QGJ_SMPP正式系统网址：http://10.33.13.206:8080/QGJ_SMPP
+登入账号：cs/1234567
+
+登入账号： cs/1234567权限少 chengrg/1234567权限多
+
+杭州管理处陈瑞刚的账号：chengrg，密码1234567
+
+嘉兴吴良炎主任的账号：wuly,密码19820809wly
+
+宁绍吴科的账号：whq，密码whq1979
+
+
+要改的地址：
+http://portal.qgj.cn/bpm/async.aspx?account=cs&uri=http%3A%2F%2Fportal.qgj.cn%2Fbpm%2Fdefault.aspx%3Fstartapp%3Dhtxc
+
+http://192.168.100.4:7081/QGJ_SMPP/
+页面：http://portal.qgj.cn/bpm/default.aspx?startapp=htxc
+http://localhost:8080/QGJ_SMPP/pages/bmp/index.html
+
+vpn cs/123456
+---------------------------------
+
+省平台账号密码：admin_xspyj   dcxx123
+
+
+http://localhost:8080/axis2/services/HelloWorldService?wsdl
+
+----------------------------------------------
+284322641 
+密码：1845
+
+远程地址：10.19.72.162
+账号：administrator
+密码：nbcg2@123.com
+----------------------
+css技术
+float:脱离文档流
+text-align:表示div中的内容，可以inuput,不单单是文本内容
+display:none 的 div 不占用空间
+width:调试其中的宽度包括padding 不包括margin
+$("textarea").css("background","transparent");设置透明度
+
+
+----------
+js技术：var data = this.data,type = this.reportID,result=[];
+
+
+		jQuery('#gridTable').GridUnload();  卸载jqgrid
+
+
+	$("#gridTable").setGridParam().showCol("syszqk");//水源水质情况
+$("#gridTable").setGridParam().hideCol("scggls");//水厂管理人数
+
+
+
+
+-------------------------
+jquery技术
+
+               if($('#current-user', window.parent.document).attr("name")=='false'){
+                    $("#edit_unit").attr("disabled",true);
+                    $("#edit_dep").attr("disabled",true);
+                }
+
+
+$(this) 和 $(event.target)
+
+jquery   元素.data("id","123"), 元素.data("id") ,元素.attr("data-id");    data-id="123"
+在jquery插件中我们经常看到以下这段代码
+
+;(function ( $, window, document, undefined ){
+//函数体内具体代码
+})(jQuery, window,document);
+1、代码最前面的分号，可以防止多个文件压缩合并以为其他文件最后一行语句没加分号，而引起合并后的语法错误。
+
+2、匿名函数(function(){})();：由于Javascript执行表达式是从圆括号里面到外面，所以可以用圆括号强制执行声明的函数。避免函数体内和外部的变量冲突。
+
+3、$实参:$是jquery的简写，很多方法和类库也使用$,这里$接受jQuery对象，也是为了避免$变量冲突，保证插件可以正常运行。
+
+4、window, document实参分别接受window, document对象，window, document对象都是全局环境下的，而在函数体内的window, document其实是局部变量，不是全局的window, document对象。这样做有个好处就是可以提高性能，减少作用域链的查询时间，如果你在函数体内需要多次调用window 或 document对象，这样把window 或 document对象当作参数传进去，这样做是非常有必要的。当然如果你的插件用不到这两个对象，那么就不用传递这两个参数了。
+
+5、最后剩下一个undefined形参了，那么这个形参是干什么用的呢，看起来是有点多余。undefined在老一辈的浏览器是不被支持的，直接使用会报错，js框架要考虑到兼容性，因此增加一个形参undefined
+
+以上就是本文的全部内容，希望本文的内容对大家的学习或者工作能带来一定的帮助，同时也希望多多支持脚本之家！
+
+($.inArray(node.rescd, prjs) < 0
+
+
+
+
+-------------------
+地图技术：
+
+地图技术：要先有地图（var waterlayer = new ArcGISTiledMapServiceLayer("http://122.227.159.86:6080/arcgis/rest/services/标准化/标准化_宁波Water/MapServer");）
+加到map中，再加图标层（	var layer = new GraphicsLayer();）才能显示地图，没有地图不行
+
+
+---------------------
+sqlserver技术：
+
+
+select * from (select
+case when (a.smspeo = 0 or a.smspeo is null ) then (select user_id from sys_user where telephone = a.h_personnm) else (select user_id from sys_user where telephone = a.smspeo) end
+ as user_id,*
+ from el_handleform_other a) b  where b.user_id = 'AF330931-44E8-4521-AEFB-6E986226C4E3'
+
+嵌套查询b里面字段不要重复
+
+
+
+ SELECT 
+ '苏州塘水闸' as ZMNM ,
+ '30.803308' as LATD ,
+ '120.740935' as LGTD ,
+ BZH_MHSN01LVL_VAL0  as ZHSW,
+ BZH_MHSN02LVL_VAL0 as ZQSW ,
+ '0'as KDs,0 as LL ,
+ '苏州塘水闸' as RTUNM,
+ '苏州塘水闸' as RTUNM1,
+ '苏州塘水闸' as RTUNM2,  
+ cast(
+  case when BZH_MHSN01OP_VAL0 >=0.02 then 1 else 0 end 
+ +case when BZH_MHSN02OP_VAL0 >=0.02 then 1 else 0 end 
+ +case when BZH_MHSN03OP_VAL0 >=0.02 then 1 else 0 end 
+ +case when BZH_MHSN04OP_VAL0 >=0.02 then 1 else 0 end as varchar(10))  + '/4' as KKNUMBER  
+ FROM  BZH_SNSZ   where timestamp = (select max(timestamp) from BZH_SNSZ)  
+
+insert into nbncgcgl.dbo.river(rivername,grade,riverlength,ChargePerson,ChargeDep,ChargePosition,ChargePhone,throughcountry,throughtown,startbelongtown,endbelongtown,mark) select RiverName,Level,RiverLen,ChargePerson,ChargeDep,ChargePosition,ChargePhone,County,Town,StartPoint,EndPoint,'gg' from [NBSHJ].[dbo].[T_RiverPersonInfo] 
+
+insert into nbncgcgl.dbo.river(rivername) select RiverName from [NBSHJ].[dbo].[T_RiverPersonInfo] where ID = '2095'
+
+
+select year(begintime),month(begintime)  from el_cctj
+
+select rescd,currentflow,'ddyx_sz' lcType,tm,
+	case 
+		when currentflow = '1' then '正值班确认接收'
+		when currentflow = '2' then '监护人开闸前检查'
+		when currentflow = '3' and lctype = '0' then '监护人闸门启闭操作'
+		when currentflow = '3' and lctype = '1' then '正值班应急预案'
+		when currentflow = '4' and lctype = '0' then '监护人运行情况'
+		when currentflow = '4' and lctype = '2' then '正值班应急预案'
+		when currentflow = '5' then '正值班运行情况反馈'
+	end as evtContent
+
+FROM [dbo].[czyx_czlcsz] where rescd = 'gc_dzxsz-330322000001' 
+					and (currentflow = '0' or currentflow = '1' or currentflow = '5' or (currentflow = '3' and lctype = '1') or  (currentflow = '4' and lctype = '2'))
+
+
+sqlserver 导入数据用
+点击数据库右键--》任务导入数据--》选择服务器名称，下面选择数据库 （可以导出所有表或者单张表）
+但张表：可以用inser into select * from
+
+单张表脚本可以用单表右键create到查询窗口再改数据库名就行 
+
+经典sql技术
+
+		String sql = "select id userID, loginname user_name,name realname,show_name,role_code role,user_id,regionid region,"
+				+ " regionName=(select top 1 regionnm from sys_region b where a.regionid=b.regionid),"
+				+ " regionCode = ( SELECT TOP 1 adcd FROM  sys_region b WHERE a.regionid = b.regionid),"
+				+ " checkpros = (SELECT TOP 1 checkPros FROM  sys_role c WHERE a.role_code = c.code and a.regionid = c.regionid),"
+				+ " grade = (SELECT TOP 1 gcType FROM  sys_role c WHERE a.role_code = c.code and a.regionid = c.regionid)"
+				+ " from sys_user as a where loginname=?";
+
+
+--------------------
+grid技术：
+（1）
+绑定数据：grid.setGrid(data);  date为[{},{}]
+获取当前选中行的id索引:var id = $('#gridTable').jqGrid('getGridParam','selrow');
+根据id索引获取这行所有数据：var obj = $('#gridTable').jqGrid('getRowData',id);  //obj.id,obj.name访问
+
+
+（2）
+$("#gridTable").getRowData(rowid) 返回一整行数据   //$("#gridTable").getRowData(rowid).id,$("#gridTable").getRowData(rowid).name访问
+ondblClickRow: function(rowid){}  其中的rowid就是$("#gridTable").getRowData(rowid).id
+
+（3）
+formatter : function(cellvalue, options, rowObject) {}   cellvalue:当前单元格值, rowObject一整行数据，可以通过rowObject.id获取id
+
+
+
+(4)
+		var id = $('#gridTable').jqGrid('getGridParam','selrow');
+		if(id == null) {
+			alert("请选择要编辑的行");
+			return;
+		}
+-------------------------------------------
+$.fn.setRedText = function() {
+    return $(this).css("color", "red");
+};
+ 
+$("p").setRedText();
+
+
+==》$.fn.extend({setRedText:function(){}})
+
+
+s+c+/加注释
+s+c+\取消注释
+
+
+
+
+
+
+	var promiseA = $.getJSON("queryDataForJD!public",{river:river,starttm:starttm,endtm:endtm});
+	var promiseB = $.getJSON("getHzzJCData!public",{river:river,county:county,starttm:starttm,endtm:endtm});
+	$.when(promiseA,promiseB).then(function(resultA,resultB){
+		var dataA = resultA[0], dataB = resultB[0];//dataA监督数据，dataB河长制数据
+		jdData=dataB;
+
+		draw(dataA,dataB);
+				
+		Array.prototype.push.apply(dataB, dataA);
+		$("#jc_TB").jqGrid('setData',dataB);
+		$("#ws_count").text('当前记录条数：'+dataB.length);
+		//判断水质是否是劣5类
+		$("td").each(function(){
+			var tt=$(this).attr("aria-describedby");
+			var number = $(this).text();
+			if(tt=="jc_TB_gmsy"){
+				if(Number(number)>15){
+					$(this).addClass("color-red");
+				}				
+			}else if(tt == "jc_TB_ad"){
+				if(Number(number)>2){
+					$(this).addClass("color-red");
+				}
+			}else if(tt == "jc_TB_zl"){
+				if(Number(number)>0.4){
+					$(this).addClass("color-red");
+				}
+			}else if(tt == "jc_TB_zhwr"){
+				if(Number(number)>6.5){
+					$(this).addClass("color-red");
+				}
+			}					
+		});
+	})
+
+
+
+
+      var promiseA = $.ajax({
+                type: "get",
+                async: false,
+                url: "http://bzh.htwater.net/hzz_smp/getUserStationList!xuncha",
+                dataType: "jsonp",
+                jsonp: "callback"
+            });
+            var promiseB = $.ajax({
+                type: "get",
+                async: false,
+                url: "http://bzh.htwater.net/xpz_smp/getUserStationList!xuncha",
+                dataType: "jsonp",
+                jsonp: "callback"
+            });
+            var promiseC = $.ajax({
+                type: "get",
+                async: false,
+                url: "http://bzh.htwater.net/cjz_smp/getUserStationList!xuncha",
+                dataType: "jsonp",
+                jsonp: "callback"
+            });
+            $.when(promiseA,promiseB,promiseC).then(function(resultA,resultB,resultC){
+                var allArray = resultA[0].concat(resultB[0],resultC[0]);
+                var selectHtml = "";
+                $.each(allArray, function (i, v) {
+                    selectHtml += "<option value='" + v.ID + "'>" + v.stnm + "</option>";
+                });
+                $("#select-res").append(selectHtml);
+
+            })
+
+
+
+jsonp必须有callback,url中可以有参数（post情况下）
+
+
+				$.ajax({ 
+					type : "post",
+							url : "http://portal.qgj.cn/bpm/YZSoft/BPM/Services/TaskList.ashx?callback=?",
+							data : {
+								method : "GetWorkList",
+							},
+							dataType : "jsonp",
+							success : function(json) {
+								alert("1");
+							},
+							error : function(XMLHttpRequest, textStatus, errorThrown) {
+								alert("error");
+							}
+						});*/
+
+
+等价于
+    $.ajax({  
+        url:"http://portal.qgj.cn/bpm/YZSoft/BPM/Services/TaskList.ashx",  
+       	data : {method : "GetWorkList"}, 
+ 	dataType:'jsonp',   
+        jsonp:'callback',  
+	success : function(json) {
+		alert("1");
+	},
+	error : function(XMLHttpRequest, textStatus, errorThrown) {
+		alert("error");
+	}
+    }); 
+
+
+
+		$.ajax({ 
+			type : "post",
+			url : "zx.json",
+			dataType : "json",
+			success : function(json) {
+				alert("1");
+			},
+			error : function(XMLHttpRequest, textStatus, errorThrown) {
+				alert(errorThrown);
+			}
+		});
+
+
+
+$.getJSON(url,function(json){                                             jQuery.getJSON( url [, data ] [, success ] )
+			alert("1ddd23");
+})
+
+
+<==》
+
+		$.ajax({ 		
+			dataType: "json",
+  			url: url,
+  			data: data,
+			success : function(json) {
+				alert("1");
+			}
+		});
+
+
+
+实现跨域请求：
+
+			$.ajax({
+				type:'get',
+				url:'http://122.227.239.194:8080/shj/admin/modal/szjc/getHzzJCData!public',
+				dataType:'jsonp',
+				data:{river:'甬江',
+					county:'市级',
+					starttm:'2016-8',
+					endtm:'2017-8'
+				},
+				success:function(data){
+					grid.setGrid(data);
+				}
+			});
+
+
+$.getJSON(url,{},function(json){                                      
+			alert("1ddd23");
+})
+
+<==> $.getJSON("getUserInfo!user", {}).then(function(json) {
+
+})
+
+谷歌调试中width*height(元素高度+border+padding) 不包括margin
+
+div{} <  #某某{}
+
+JSON.stringify( object1 )  json对象转字符串
+
+
+json格式传递数据可以返回[]不一定要用{}
+
+
+select COUNT(name) from syscolumns where id=object_id('dbo.防汛物资统计') 
+
+
+问题集：new Object[]{rescd}
+
+谷歌浏览器调试技巧：云代表请求同级对应的方块代表请求涉及的页面
+
+text-indent 属性规定文本块中首行文本的缩进。
+注释：允许使用负值。如果使用负值，那么首行会被缩进到左边。
+
+
+box-sizing:border-box 
+box-sizing:content-box|
+
+box-shadow
+
+c { width:90%;margin:0px auto; } 里面的元素就能居中了
+
+    width: calc(33% - 10px);
+
+-----------------
+
+
+div上加属性字段
+
+
+
+
+
+http://www.uimaker.com/uimakerhtml/uidesign/uibs/2017/0511/127687.html
+
+
+
+
+window.top.document
+
+
+ if(menu.name=="首页") {
+                        	isExist = false;
+                        } else if
+
+
+
+
+tomcat默认编码是什么
+
+
+刷新iframe  $("#zhsl_1",window.top.document).find('.zhsl-iframe').children().attr("src","pages/bigEvent/index.html");
+
+iframe设置src就是刷新iframe
+
+  <Connector port="8080" protocol="HTTP/1.1" 
+               connectionTimeout="20000" 
+               redirectPort="8443" URIEncoding="UTF-8" />
+
+问题集：
+showInuut,
+
+window.open("档案.xls", "_blank");
+
+
+
+增值税开票资料
+名称：宁波弘泰水利信息科技有限公司
+税号：913302057930021440
+地址电话：宁波市江北区同济路277号19-1室 87876020
+开户行、账号：宁波银行灵桥支行  32010122000034478
+
+
+
+js编码规范：
+callback: {
+
+}
+$(".ui-layout-center").css({ "position": "absolute", "z-index": "blue" });
+	
+
+
+    background-color: rgba(31, 44, 56, 0.29);
+
+
+
+1.超链接<a href="http://www.jb51.net" title="脚本之家">Welcome</a>
+等效于js代码
+window.location.href="http://www.jb51.net";     //在同当前窗口中打开窗口   等价于 location.href
+ 
+2.超链接<a href="http://www.jb51.net" title="脚本之家" target="_blank">Welcome</a>
+等效于js代码
+window.open("http://www.jb51.net");                 //在另外新建窗口中打开窗口
+
+
+window.open('new_window.html','_blank','')
+		var url = window.location.href;
+		$("#log-type").trigger("change");
+		 $("#log-type").val("登陆");
+		 $("#log-type").trigger("change");
+
+
+
+				var url = window.location.href;
+				if(url.indexOf("?") != -1) {
+					 $("#log-type").val("登陆");
+					 $("#log-type").trigger("change");
+				}
+
+
+$(function () {}中的变量不是全局变量会消亡
+
+
+获取？后面字符串url.substr(url.indexOf("?")+1,url.length)
+
+
+http://portal.qgj.cn/bpm/WTApp/EventInfo/SzEvent/StoreDataService/BzhTolEventInfoData.ashx?method=GetData&SearchType=QuickSearch&et=2017-06-12&st=2017-05-01&dname=jxglc
+
+
+
+select cast(NEWID() as varchar(36)) as uuid
+
+
+杭州湾：中型水库 海塘 水闸 泵站
+
+
+余杰 美传贵  小刘系统
+
+
+[{"zcsw":"","LGTD":"121.627","LATD":"29.739","RATIO":"1.003","Z8KR":"--","STNM":"寨基水库","KZKR":"--","CTZ":"30.07","ZKR":"--","STCD":"97","Z8":"--","isfocus":"","CITY":"鄞州区","_s":"","fhgsw":"31.47","TYPE":"s2","Z":30.19}]
+
+
+getdata.js
+
+
+
+问题集：
+
+					//加载完的回调函数		 
+					function filter(node) {
+						if(localStorage.getItem("curGccd")!=null){
+							return  !node.isParent && localStorage.getItem("curGccd")==node.id;
+						}else{
+							return  !node.isParent && treeObj.config.focus.indexOf(',' + node.id + ',') >= 0;
+						}
+					}
+					var node  = treeObj.tree.getNodesByFilter(filter,true); 
+
+
+
+
+
+仓岙水库
+大塘港水库
+隔溪张水库
+上张水库
+溪口水库
+
+工程和管理单位关系
+
+
+
+jquery删选出来的是数组是dom元素，要用jquery包装一下变成jquery才能对他进行操作
+
+
+var text = $($(".water-label")[0]).children().text();  一遍数组遍历 遍历中有$(this)就是转成了jquery
+
+
+
+						formatter : function(cellvalue, options, rowObject) {
+							
+							var temp = "<div class='attadiv' style='width:120px;' >" + "<img style='cursor:hand;margin:0 2 0 15;' title='删除' src='../../../../img/delete.gif'  onclick=topbar.deleteResult('"+cellvalue+"')   id='delete-" + cellvalue + "'/>"
+									+ "<img style='cursor:hand;margin:0 2 0 15;' title='在线浏览'   src='../../../../img/view.png' onclick=topbar.viewResult('"+cellvalue+"')  id='view-" + cellvalue + "'/>" + "</div>";
+							return temp;
+						}
+
+cellvalue 就是单元格值 绑定的值
+
+rowObject行数据都有，用rowObject.id,rowObject.orgname
+
+
+
+select DATEPART(day,begintime), * from FXYW_gate_operation 
+
+
+
+    overflow: scroll;  和 overflow:auto的区别
+
+
+mapdemo/index.html页面高度再去看一下
+
+http://localhost:8080/gpsgl/pages/zhiban/fx_zbap.html右击页面直接run on server 不用再浏览器输入网址
+
+
+SQLsever 导出表：  选中表右键：编写脚本为：create到；新查询编辑窗口
+
+
+
+select t.* from
+(select test.*,row_number() over (partition by classname order by score desc) rn 
+from test) t
+where rn=1;
+
+
+
+
+2017-07-17 10:30
+
+
+在编辑器中可以copy工程
+
+
+
+
+$.getUrlVars("type")
+
+
+json.stringify(josn) json转字符串
+
+
+ WSDL2JAVA created uncompilable Stub
+
+
+
+sqlserver端口号用，分割，如：122.227.236.126,14331
+
+
+100 左边页面右边地图
+300 直接页面 文件路劲要写全
+
+
+war包放上去自动回解压出来
+
+
+
+谷歌右键检查元素
+
+
+发布时要用war包，把war删除，同名文件会消失，项目导出war包就行，覆盖
+
+
+
+full  主页
+f_index 首页
+index_a 地图页
+
+点击f_index的图标会重新访问index_a?gctype后面会传入参数
+
+
+location.href="http://localhost:8080/abzh/index_a_page.html?gcType=gc_ncgsgc#action=gclbIframe/appFun/organiManage/authority/authority.html&name=管理机构&type=300";
+								//window.open("http://localhost:8080/abzh/index_a_page.html?gcType=gc_ncgsgc#action=gclbIframe/appFun/organiManage/authority/authority.html&name=管理机构&type=300", "_self");
+
+
+
+
+
+http://localhost:8080/abzh/loginNopsd.html?username=fhslj&password=fhsl@123
+在iframe中嵌入好像都不会再地址栏中打开
+
+
+新增时判断id
+
+			if (id==null||id.toString().equals("")) {
+				id = UUID.randomUUID().toString();
+			}
+
+
+ztree pId顶层不一定要有pId字段，因为只有子类有pId就行
+
+
+字符串转json data是字符串1
+var json = $.parseJSON(data)
+
+
+		if (id==null||id.toString().equals("")) {
+			id = UUID.randomUUID().toString();
+		}
+
+
+
+this.overlayLayer.clear();
+			var infoTemplate = new InfoTemplate();
+			infoTemplate.setTitle("${CITY}-${STNM}(${STCD})雨量过程");
+			infoTemplate.setContent(lang.hitch(this, "getInfoTemplateContent"));
+var point = new Point(item.LGTD, item.LATD, spatialReference);
+				var graphic = new Graphic(point, null, item, infoTemplate);
+this.overlayLayer.add(overlay);
+
+
+http://localhost:8080/nbncgcgl/map_sz.html?isAll=1
+
+http://localhost:8080/nbncgcgl/map_sz.html?isAll=1
+
+
+
+ CONVERT(bit,0) as [open]
+
+
+登录注册
+sqlserver的类型转换CAST和Convert
+原创 2015年03月24日 10:59:40 2671
+我们知道sqlserver是提供两种类型转换的内置函数。一个Cast(),另一个是Convert()。两种方法的语法是不相同的。
+1.Sysnax for Cast
+       CAST(expression AS dataType[(length)])
+for example:
+               我要退库单价保留两位小数，怎么去做？(退库单价的字段为SalePrice)
+                   Cast(SalePrice as decimal(10,2))
+2.Sysnax for Convert
+           CONVERT(dataType[(length)],expression( , style))    
+这里的style指的是转换成什么样的类型。120是ODBC标准，111是日本标准,and so on.
+for example:
+            把当前时间转换成字符串格式的
+         Convert(varchar(30),getDate(),120)
+
+下面来看两个简单的例子:
+select cast(12.3 as int)      output: 12   
+select convert(int,12.3)      output:12
+
+
+String sql2 = "insert into " + table1 + " (id, rescd, name, NO, creatorid, createtime,) values (?, ?,?,?,?,GETDATE())";
+
+
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");// 设置日期格式
+
+		if (id.equals("null")) {
+			String sql = "INSERT INTO "
+					+ table1
+					+ " ([id],[rescd] ,[name],[NO],[creatorid],[createtime],[daType]) VALUES (?,?,?,?,?,?,?)";
+
+			if (dao.executeSQL(sql, new Object[] { uuid.toString(), rescd,
+					name, NO, userid, df.format(new Date()),daType})) {
+				result.put("msg", "success");
+			} else {
+				result.put("msg", "保存失败");
+			}
+		}
+
+
+
+
+
+
+
+
+附件处理
+		uploadfile:function(){
+			if (document.getElementById("afile").value == "") {
+				alert("您还未指定上传文件，无法上传");
+				return;
+			}
+			$.ajaxFileUpload({
+				url : "../../../../service/upload?path=/"+myfileinfo.currentrescd+"/bz/yxjc/",
+				dataType : 'json',
+				data : {
+					param1 : '参数1',
+					param2 : '参数2'
+				},
+				secureuri : false,
+				fileElementId : 'afile',
+				success : function(data, status) {
+					if (data.result == 'success') {
+						alert('上传成功');
+						var id = new UUID().createUUID();
+						console.log(data);
+						var orgname = data.orgname;
+						var filename = data.filename;
+						$("#orgname").val(orgname);
+						$("#filename").val(filename);
+					} else {
+						alert(data.result);
+					}
+				},
+				error : function(data, status, e) {
+					alert(e);
+				}
+			});
+		}
+
+
+	getPDF:function(filename,id){
+			if(filename=="null" || filename==null ||filename=="" || filename == undefined || filename == "undefined" ){
+				alert("暂无文件，请上传");
+				return;
+			}
+			grid.showEast();
+			var path =  "/"+currentRescd+"/bz/yxjc/"
+			var index1=filename.lastIndexOf(".");  
+			var index2=filename.length;  
+			var postf=filename.substring(index1,index2);//后缀名 
+			if(postf == ".jpg" || postf == ".jpeg" || postf == ".gif" ||  postf == ".png" || postf == ".bmp") {//图片
+				$("#pdf-detail").html("<img id='' style='width:100%; height:99%'" +
+						" src='../../../../servlets/GetPDFServlet?path="+path+"&filename="+filename+"'/>");
+			}else{//pdf
+				$("#pdf-detail").html( 
+						"<embed id='' style='width:100%; height:100%'" +
+						" src='../../../../servlets/GetPDFServlet?path="+path+"&filename="+filename+"'></embed>");
+			}
+	}
+
+-----------------------------
+
+update table set num = （num+sss） where sss
+
+
+
+http://games.sina.com.cn/z/cs/test.shtml
+
+
+	//var curCity = $.cookie("curCity");
+
+
+				formatter : function(cellvalue, options, rowObject) {
+							var temp = cellvalue.replace(/^0/, '');
+							return temp;
+						}	
+
+
+
+
+
+                var infodetailhtml = $.ajax({
+                    url: "tempform.html",
+                    async: false
+                }).responseText.toString();
+
+
+
+
+
+
+tm = getdate()
+<textarea class="content1-textarea" id="xccount" name="xccount" disabled="true"></textarea>
+
+	$addTB.find("#ddlCode").attr("disabled",true);  
+
+
+
+	//穆湖溪泵站查看历史
+	$addTB.find("#mhxbzhis").click(function(){
+		var html = $.ajax({url:"ddlList.html", async: false}).responseText.toString();
+		dialog = showInput("调度令列表",html,1200,680);
+	});
+
+
+ddlList.html页面和js所在页面同目录 相对目录    也可以改成aa/ddlList.html  那么上面js所在页面和aa同目录
+----------------------
+
+js技术：
+
+$.extend()：
+1.jQuery.extend(object); 给jquery添加静态方法
+2.jQuery.extend([deep], target, object1, [objectN]);把2个对象合并得到新的target,deep是可选的（递归合并）
+
+$.fn.extend()
+jQuery.fn.extend(object);给jQuery对象添加方法。 
+
+
+
+
+
+
+
+1.
+$.extend({ 
+　　add:function(a,b){return a+b;} 
+}); 
+
+$.add(3,4); //return 7 
+
+
+2.
+
+$.fn.extend({ 
+alertWhileClick:function(){ 
+$(this).click(function(){ 
+alert($(this).val()); 
+}); 
+} 
+}); 
+$("#input1").alertWhileClick(); 
+
+
+3.
+jQuery 代码:
+var settings = { validate: false, limit: 5, name: "foo" };
+var options = { validate: true, name: "bar" };
+jQuery.extend(settings, options);
+结果:
+settings == { validate: true, limit: 5, name: "bar" }
+描述:
+合并 defaults 和 options, 不修改 defaults。
+
+jQuery 代码:
+var empty = {};
+var defaults = { validate: false, limit: 5, name: "foo" };
+var options = { validate: true, name: "bar" };
+var settings = jQuery.extend(empty, defaults, options);
+结果:
+settings == { validate: true, limit: 5, name: "bar" }
+empty == { validate: true, limit: 5, name: "bar" }
+
+
+
+
+
+fn 是什么东西呢。查看jQuery代码，就不难发现。 
+jQuery.fn = jQuery.prototype = { 
+　　　init: function( selector, context ) {//....　 
+　　　//...... 
+}; 
+
+
+
+person.prototype = {
+
+          showname: function(){
+
+                    alert('我的名字'+this.name)
+
+ }
+
+}
+==>等价
+
+person.prototype.showname = function(){//这里showname即使方法的引用也是方法名，有点奇怪
+
+          alert("我的名字:"+this.name);
+
+ }  
+
+
+function getNowFormatDate() {
+    var date = new Date();
+    var seperator1 = "-";
+    var seperator2 = ":";
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var strDate = date.getDate();
+    var strHour = date.getHours();   
+    var strMinutes = date.getMinutes();
+    if (month >= 1 && month <= 9) {
+        month = "0" + month;
+    }
+    if (strDate >= 0 && strDate <= 9) {
+        strDate = "0" + strDate;
+    }
+    if (strHour >= 0 && strHour <= 9) {
+    	strHour = "0" + strHour;
+    }
+    if (strMinutes >= 0 && strMinutes <= 9) {
+    	strMinutes = "0" + strMinutes;
+    }
+    var currentdate = year + seperator1 + month + seperator1 + strDate
+            + " " + strHour + seperator2 + strMinutes;
+    return currentdate;
+}
+
+
+获取url参数：
+
+function GetQueryString(name)
+{
+     var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+     var r = window.location.search.substr(1).match(reg);
+     if(r!=null)return  unescape(r[2]); return null;
+}
+var rwid =GetQueryString("rwid") ;
+
+
+---
+		String result = "[{'name':'hehe','age':22},{'name':'xieyi','age':22}]";
+		String a = "";
+		JSONArray josnArray = JSONArray.fromObject(result);
+		for(int i=0;i<josnArray.size();i++) {
+			JSONObject jsonObject = josnArray.getJSONObject(i);
+			Map<String,String> m = jsonObject; 
+			a += m.get("name");
+		}
+		System.out.println(a);
+-----------
+ajax技术
+                var infodetailhtml = $.ajax({
+                    url: "tempform.html",
+                    async: false
+                }).responseText.toString();
+----------
+sql server技术
+cast(a.flowId as varchar(10))
+
+
+
+jQuery.getUrlVars不是jquery方法 是自己封装的方法在jqueryEx.js中
+
+
+
+
+
+[['filename':'123','orgname':'122','type':'0'],['filename':'123eeee','orgname':'122','type':'1']]
+
+
+
+["bzcztime":"2017-11-03 14:59:44","bzczendtime":"2017-11-03 14:59:44","bzczContent":"正常333333333"]
+
+
+
+
+--------------------
+
+
+
+ztree出现  init undefined是在 ztree在jquery后加载以后，又加载了jquery原因导致
+
+AdvanceSearch.js中有加载了jquery导致
+
+
+
+ztree.init初设化有问题，肯定是jquery插件引用了两次导致的，在Legend.js有文件jquery引入
+
+
+ Aimbooster
+
+
+
+jqgrid 先要加载列后再加载数据
+
+
+67821536
+
+----------------------------------------------------------
+
+					{
+						name : 'id',
+						index : 'id',
+						align : 'center',
+						width : 100,
+						fixed : true,
+						formatter : function(cellvalue, options, rowObject) {
+							
+							
+							var temp = "<div class='attadiv' style='width:120px;' >"
+									+ "<img style='cursor:hand;margin:0 2 0 15;' title='在线浏览'   src='../../../../../img/view.png' onclick=grid.viewResult('"+cellvalue+"')  id='view-" + cellvalue + "'/>" + "</div>";
+							return temp;
+						}
+					},
+					{name : 'id',index : 'id',width:140,hidden: true},
+
+
+{name : 'id',index : 'id',width:140,hidden: true}写在格式化以后不会出现问题，如编辑和删除，现在前面会出<div class=>问题
+
+------------------
+
+
+zTree_file.setting.callback.onClick(null, zTree_file.setting.treeId, zTree_file.getNodeByParam("id",json[json.length-1].id,null));
+
+
+
+	public Map<String, Object> saveXmjd(String year,String name,String region,String jsgmHdzl,String jsgmZtz, String jsjhHdzl, String jsjhWctz)
+	{
+		Map<String, Object> map = new HashMap<String, Object>();
+		String sql="insert into el_xmjd(year,name,region,jsgmHdzl,jsgmZtz,jsjhHdzl,jsjhWctz) values(?,?,?,?,?,?,?) ";
+		if(dao.executeSQL(sql,new Object[]{year,name,region,jsgmHdzl,jsgmZtz,jsjhHdzl,jsjhWctz})){
+			sql = "select * from el_xmjd order by id desc";
+			String  xmjdId = dao.executeQuery(sql).get(0).get("id").toString();
+			sql = "insert into el_xmjdDetail(month,xmjdId) values(?,?)";
+			String month = DateUtil.getToday("MM");
+			if(dao.executeSQL(sql,new Object[]{month,xmjdId})) {
+				map.put("msg","success");
+			}
+		}else {
+			map.put("msg","fail");
+		}
+		return map;
+	}
+
+
+	public List<Map<String, Object>> getXmjdDetailById (String id){
+		String sql = "select a.year,a.name,a.region,a.yearHdzl,a.yearDa,a.yearZw,a.yearSj,a.yearTfs,a.yearTz, b.* from el_xmjd a "
+				+ "left join el_xmjdDetail  b on a.id = b.xmjdId where a.id=" + id;
+		return dao.executeQuery(sql);
+	}
+做链接和where
+
+
+去空格replace(/^0/, '')
+		var temp = cellvalue.replace(/^0/, '');
+							
+
+
+var contentHTML = "<div style='clear:both;float:left'><b>工程名称: </b></div><div style='float:right'>${ENNM}</div><br/><div style='clear:both;float:left'><b>类型: </b></div><div style='float:right'>"+ntslTypeName+"</div><br/><div style='margin-top:5px;float:right'><a href='javascript:void(0)' onclick='parent.parent.subgo(\""+rescd+"\")'>点我</a></div>";
+转义的受最好转移" ,不要转义'
+
+
+121.2919837244728
+
+
+
+
+		$.window({
+			icon : '',
+			content : "<iframe style=\"height:99%; width:100%\" frameborder='no' src='infos.html?type=add&rescd="+currentRescd+"'/>",
+			checkBoundary : true,minimizable : false,maximizable : false,
+			height : 440,
+			width : 430
+		});
+
+
+显示最大化和最小化
+minimizable : false,maximizable : false,
+false不显示
+
+
+实现跨域：
+		if($.cookie("curCityCode")=="330285"){
+			 //url 1:url = "http://115.238.153.130:8080/dqhsqdb/Queryreswater!SYQ?callback=?";
+			//url 2:url = "Querydqhreswater!SYQ";axis2实现
+			url = "http://115.238.153.130:8080/dqhhis/public?/getWaterGrid";//不跨预
+		}
+		fetchingData = $.getJSON(url, {
+			TM: me.$c.find('#water_run-tm').val(),
+			realtime:me.isRealtime
+		});
+
+
+
+
+dom对象和jquery对象相互转化：
+$(this.container)[0] 《==》 $(this.container).get(0) <==> this.container
+
+
+setTimeout() 只执行 code 一次。如果要多次调用，请使用 setInterval() 或者让 code 自身再次调用 setTimeout()。
+
+定时器：
+<script type="text/javascript">
+var c=0
+var t
+function timedCount()
+  {
+  document.getElementById('txt').value=c
+  c=c+1
+  t=setTimeout("timedCount()",1000)
+  }
+function stopCount()
+  {
+  clearTimeout(t)
+  }
+</script>
+
+
+
+
+17.快捷
+CTRL+F4         关闭当前应用程序中的当前文本（如word中）
+ctrl+w或ctrl+f4关闭文件
+
+
+浏览器：
+ctrl+e 定位到地址栏
+ctrl+t 打开一个新标签。
+ctrl+n 打开一个新的浏览器窗口。
+ctrl+shift+t 重新打开上一个关闭的选项卡。
+Ctrl + L，Alt + D，F6 - 将地址栏对焦，以便开始输入。
+
+Ctrl + Enter - 前缀www。并将.com添加到地址栏中的文本中，然后加载该网站。例如，在地址栏中输入howtogeek，然后按Ctrl + Enter打开www.howtogeek.com。
+ctrl+g
+ctrl+shift+g
+
+eclipse:
+ctrl+e查看文件
+ctrl+w或ctrl+f4关闭文件
+
+onclick中传this对象是dom对象，this.id,this.name,如onclick = test(this);
+$(obj)变成jquery对象，$(obj).attr("id");
+
+
+18. 			var id = $('#gridTable').jqGrid('getGridParam','selrow');
+ 			if(id == null) {
+ 				alert("请选择要编辑的行");
+ 				return;
+ 			}
+ 			var obj = $('#gridTable').jqGrid('getRowData',id)；
+这个id是索引要去理解
+
+$('#user-info', window.parent.document)
+
+
+  <servlet>
+    <display-name></display-name>
+    <servlet-name>UploadServletPDF</servlet-name>
+    <servlet-class>net.htwater.servlets.UploadServletPDF</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadServletPDF</servlet-name>
+    <url-pattern>/servlets/UploadServletPDF</url-pattern>
+  </servlet-mapping>
+
+----------------------------
+    <servlet>
+    <display-name></display-name>
+    <servlet-name>CommonUpload</servlet-name>
+    <servlet-class>cn.miao.framework.servlet.UploadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CommonUpload</servlet-name>
+    <url-pattern>/service/upload</url-pattern>
+  </servlet-mapping>
+
+	url : "../../../../service/upload?path=/"+rescd+"/wxyh_plan",
+../../../../servlets/GetPDFServlet?path
+servlets/GetPDFServlet
+-----------------------
+
+
+
+
+
+
+两种方式都能上传文件，单目录不同，代码上找路径
+
+
+gclbIframe/appFun/xns/modules/projectBenifitNew/projectBenifit.html?rescd=all
+
+
+
+sqlserverL教程：复制列到某张表
+
+update P901_MountainPond
+set LONG_D = b.LONG_D,LONG_M = b.LONG_M,LONG_S = b.LONG_S,LAT_D = b.LAT_D,LAT_M = b.LAT_M,LAT_S = b.LAT_S
+from P901_MountainPond a,mytemp b
+where a.ENNMCD = b.ENNMCD
+
+
+
+CONVERT(varchar(4),updatetime,120)
+
+
+js技术：
+this.attributes['xx'].value
+
+
+arcgis技术：
+map.graphics.clear();
+
+
+
+
+			//会议编辑和删除--begin
+				me.hyEvents = {'click .editCommand': function (e, value, row, index) {
+					var width = me.width-50,height = 480;				
+					var html = $.ajax({url:"addPlan/hyInfo.html", async: false}).responseText.toString();
+					var $dialoghy = showInput("编辑会议信息",html,width,height);
+					var $modalhy = $dialoghy.getModalContent();
+					$modalhy.find("#hyName").val(row.hyName); 
+					$modalhy.find("#hyPerson").val(row.hyPerson); 
+					$modalhy.find("#hyTm").val(row.hyTm.substr(0,11)); 
+					$modalhy.find("#zzUnit").val(row.zzUnit); 
+					$modalhy.find("#hyYj").val(row.hyYj); 
+					$modalhy.find("#unitYj").val(row.unitYj); 
+					$modalhy.find("#projectName").val($modal.find("#projectName").val); 
+					$modalhy.find("#region").val($modal.find("#region").val); 
+					$modalhy.find("#river").val($modal.find("#river").val); 
+					
+					$modalhy.find("#cancel").click(function(){
+						$dialoghy.close();
+					});
+					$modalhy.find("#save").click(function(){
+						var projectName = $("#projectName").val();
+						var projectType = $("#projectType").val();
+						var region = $("#region").val();
+						var river = $("#river").val();
+						var unit = $("#unit").val();
+						var progress = $("#progress").val();
+						var remark = $("#remark").val();
+						var Year = $("#year1").val();
+						$.getJSON("updateRiverProject!plan",{id:row.id,Year:Year,projectName:projectName,projectType:projectType,region:region,river:river,unit:unit,progress:progress,remark:remark},function(json){
+							if(json.msg == "success"){
+								$dialog.close();
+								showInfo("修改成功！！！");
+								me.initYearData();
+							}else{
+								showError("修改失败！！！");
+							}
+						});
+					});
+				},'click .deleteCommand': function (e, value, row, index) {
+					showConfirm('是否删除此项目？',function(ret){
+						if(ret){
+							$.getJSON("deleteRiverProject!plan",{id:row.id},function(json){
+								if(json.msg == "success"){
+									showInfo("删除成功！！！");
+									me.initYearData();
+								}else{
+									showError("删除失败！！！");
+								}
+							});
+						}
+					});
+				}};
+				//会议编辑和删除--end
+
+
+
+
+
+iframe可以用a标签打开，a标签设置target,或者自身打开
+
+
+http://192.168.18.39:8080/abzh_jx/insertKzqApp!safeelement?id=52&result=["gdxt":"正常","qbj":"正常","cdxt":"正常","zmxt":"正常","hdjzb":"正常","other":""]&type=0&zmStatus=0&gatepore=1&gateopen=2&flow=3&waterup=4&waterdown=5
+
+
+
+smalldatetime 和 datetime有什么区别
+sqlserver datetime 为空，smalldatetime  1900-01-01 00:00:00                     datetime 1900-01-01 00:00:00.000
+
+
+
+
+调经纬度（天地图）：
+121.5858192986（大右边跑）   29.8774760473（大上跑）
+
+
+
+ot.troH1maCo

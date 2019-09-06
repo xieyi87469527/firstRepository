@@ -1,0 +1,59 @@
+select * from inspect2_form
+select * from inspect2_abnormal
+select * from inspect2_abnormal_atta
+select * from inspect2_abnormal_flow
+select * from [inspect2_abnormal_atta]
+
+---------------------------------
+
+手机端巡查时：
+新增任务：inspect2_form生成一条记录，而且isOver为0
+开始巡查：这个过程会在平台生成隐患记录：具体操作如下
+上报完成后isOver变为1,inspect2_result结果表会存水位
+
+
+----------------------------------
+
+手机端上报隐患后：
+inspect2_abnormal会插入一条数据，而且state=0;
+inspect2_abnormal_atta里有上报的图片；
+
+平台隐患确认：
+inspect2_abnormal 表state变为1；
+inspect2_abnormal_flow插入一条数据，且flow_state=1;
+
+
+平台维修审批：
+inspect2_abnormal 表state变为2；
+inspect2_abnormal_flow插入一条数据，且flow_state=2;
+手机端生成一条记录隐患处理，手机端处理
+
+手机端隐患处理上报后（可以多次上报，每次上报表里生成一条图片记录，如果点击完成，那么inspect2_abnormal state变为3，这个过程平台显示维修中）：
+inspect2_abnormal_atta会里有上报的图片；
+
+结果审核：
+inspect2_abnormal 表state变为4；
+inspect2_abnormal插入检查人check_user，检查时间check_tm，检查内容信息check_msg
+
+变为4流程结束
+
+---------------------------------
+巡查频率：
+T_stationinfo中的xunchaLength字段
+日常 特别 定期 根据字段inspecttypecode = 'rcxc'，区分
+-------------
+
+
+表结构：
+
+
+
+
+
+
+
+
+
+
+
+
